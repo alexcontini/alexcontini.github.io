@@ -23,7 +23,7 @@ h1 {
 
 .banner1 {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   padding-top:15%;
   padding-bottom:0.5%;
@@ -38,14 +38,14 @@ background-repeat:no-repeat;
 
 h2 {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   font-size:24px;
   color:#3366ff;
 }
 
 .quote {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   font-size:22px;
   line-height:32px;
   color:#3366ff;
@@ -53,7 +53,7 @@ h2 {
 
 .details {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   font-size:19px;
   color:#3366ff;
     letter-spacing:0.03em;
@@ -89,7 +89,7 @@ font-size:14px;
 
 width: 43%;
 font-family:"Roboto", sans-serif;
-font-weight:100;
+font-weight:300;
 float:left;
 line-height:20px;
 color:#606060;
@@ -107,7 +107,7 @@ font-size:14px;
   margin-top:4%;
   margin-bottom:4%;
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   float:left;
   line-height:22px;
   color:#606060;
@@ -121,7 +121,7 @@ margin-left:7%;
 margin-top:2%;
 margin-bottom:5%;
 font-family:"Roboto", sans-serif;
-font-weight:100;
+font-weight:300;
 float:left;
 
 }
@@ -129,7 +129,7 @@ float:left;
 
 .banner2 {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   padding-top:4%;
   padding-bottom:4%;
@@ -140,13 +140,13 @@ float:left;
   width:100%;
   float:left;
   background: url('CaseStudy_wink_banner2.jpg');
-
+background-repeat:no-repeat;
 
 }
 
 .banner3 {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   padding-top:5%;
   padding-bottom:5%;
@@ -161,7 +161,7 @@ float:left;
 
 .banner4 {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   padding-top:5%;
   padding-bottom:5%;
@@ -177,7 +177,7 @@ float:left;
 
 .banner5 {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   padding-top:5%;
   padding-bottom:5%;
@@ -193,7 +193,7 @@ float:left;
 
 .banner2text {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   width:50%;
   padding-right:20%;
@@ -205,7 +205,7 @@ float:left;
 
 .banner3text {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   width:55%;
   padding-left:21%;
@@ -217,7 +217,7 @@ float:left;
 
 .banner5text {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   width:55%;
   padding-left:10%;
@@ -249,7 +249,7 @@ h4 {
 
   h1 {
     font-family:"Roboto", sans-serif;
-    font-weight:400;
+    font-weight:500;
     line-height:34px;
       letter-spacing:0.03em;
     font-size:28px !important;
@@ -266,7 +266,7 @@ font-size:18px !important;
 
 .details {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   font-size:14px;
   color:#3366ff;
     letter-spacing:0.03em;
@@ -282,7 +282,7 @@ padding-left:5%;
 padding-right:8%;
 float:left;
 font-family:"Roboto", sans-serif;
-font-weight:100;
+font-weight:300;
 color:#606060;
 line-height:20px;
     letter-spacing:0.03em;
@@ -297,7 +297,7 @@ padding-left:5%;
 padding-top:5%;
 padding-bottom:5%;
 font-family:"Roboto", sans-serif;
-font-weight:100;
+font-weight:300;
 float:left;
 line-height:20px;
 color:#606060;
@@ -309,7 +309,7 @@ font-size:14px;
 
 .banner2 {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   padding-top:4%;
   padding-bottom:4%;
@@ -327,7 +327,7 @@ font-size:14px;
 
 .banner3 {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   padding-top:5%;
   padding-bottom:5%;
@@ -342,7 +342,7 @@ font-size:14px;
 
 .banner4 {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   padding-top:5%;
   padding-bottom:5%;
@@ -358,7 +358,7 @@ font-size:14px;
 
 .banner5 {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   padding-top:5%;
   padding-bottom:5%;
@@ -374,7 +374,7 @@ font-size:14px;
 
 .banner2text {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   width:80%;
   padding-left:%;
@@ -385,7 +385,7 @@ font-size:14px;
 
 .banner3text {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   width:80%;
   padding-left:10%;
@@ -397,7 +397,7 @@ font-size:14px;
 
 .banner5text {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   width:80%;
   padding-left:2%;
@@ -409,7 +409,7 @@ font-size:14px;
 
 .banner1 {
   font-family:"Roboto", sans-serif;
-  font-weight:100;
+  font-weight:300;
   color:#ffffff;
   padding-top:15%;
   padding-bottom:0.5%;
