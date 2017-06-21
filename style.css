@@ -27,12 +27,11 @@ h1 {
   color:#ffffff;
   padding-top:15%;
   padding-bottom:0.5%;
-  padding-left:11%;
+  padding-left:10%;
   font-size:24px;
   width:100%;
   background: url('CaseStudy_wink_banner1.jpg');
-background-repeat:no-repeat;
-background-color:#303030;
+background-size:100% auto;
 
 }
 
@@ -60,7 +59,7 @@ h2 {
     letter-spacing:0.03em;
   padding-bottom:1.5%;
   padding-top:2%;
-  padding-left:11%;
+  padding-left:10%;
 }
 
 hr {
@@ -118,7 +117,7 @@ font-size:14px;
 
 .cols {
 width:80%;
-margin-left:7%;
+margin-left:6%;
 margin-top:2%;
 margin-bottom:5%;
 font-family:"Roboto", sans-serif;
@@ -142,6 +141,7 @@ float:left;
   float:left;
   background: url('CaseStudy_wink_banner2.jpg');
 background-repeat:no-repeat;
+background-color:#3e3e3e;
 
 }
 
@@ -157,6 +157,7 @@ background-repeat:no-repeat;
   width:100%;
   float:left;
   background: url('CaseStudy_wink_banner3.jpg');
+  background-size:100% auto;
 
 }
 
@@ -172,7 +173,7 @@ background-repeat:no-repeat;
   width:100%;
   float:left;
   background: url('CaseStudy_wink_banner4.jpg');
-
+background-size:100% auto;
 }
 
 
@@ -189,7 +190,7 @@ background-repeat:no-repeat;
   width:100%;
   float:left;
   background: url('CaseStudy_wink_banner5.jpg');
-
+background-size:100% auto;
 }
 
 .banner2text {
@@ -418,6 +419,16 @@ font-size:14px;
   font-size:18px;
   width:100%;
   background: url('CaseStudy_wink_banner1.jpg');
+  background-size:100% auto;
+
+}
+
+.banner1 {
+  font-family:"Roboto", sans-serif;
+
+  width:100%;
+  background: url('CaseStudy_wink_banner1.jpg');
+background-repeat:no-repeat;
 
 
 }
