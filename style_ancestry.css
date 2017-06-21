@@ -133,13 +133,13 @@ float:left;
   color:#ffffff;
   padding-top:3%;
   padding-bottom:3%;
-  padding-left:7%;
+
   font-size:16px;
   letter-spacing:0.03em;
   line-height:24px;
   width:100%;
   float:left;
-  background: url('CaseStudy_ancestry_banner2.jpg');
+
   background-size:100% auto;
 background-color:#666666;
   background-repeat:no-repeat;
@@ -200,8 +200,8 @@ background-size:100% auto;
   font-weight:300;
   color:#ffffff;
   width:55%;
-  padding-right:20%;
-  float:right;
+  padding-left:20%;
+  float:left;
   text-align:center;
 
 
@@ -223,8 +223,8 @@ background-size:100% auto;
   font-family:"Roboto", sans-serif;
   font-weight:300;
   color:#ffffff;
-  width:55%;
-  padding-left:10%;
+  width:52%;
+  padding-left:15%;
   float:left;
   text-align:center;
   color:#3366ff;
