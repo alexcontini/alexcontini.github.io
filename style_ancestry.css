@@ -16,7 +16,7 @@ margin:0;
 h1 {
   font-family:"Roboto", sans-serif;
   font-weight:bold;
-  letter-spacing:0.03em;
+  letter-spacing:0.025em;
   font-size:42px;
   padding-bottom:0px;
 }
@@ -27,7 +27,7 @@ h1 {
   color:#ffffff;
   padding-top:12%;
   padding-bottom:0.5%;
-  padding-left:10%;
+  padding-left:9.9%;
   font-size:32px;
   width:100%;
   background: url('CaseStudy_ancestry_banner1.jpg');
