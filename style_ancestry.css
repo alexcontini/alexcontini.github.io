@@ -340,7 +340,7 @@ font-size:14px;
   line-height:24px;
   width:100%;
   float:left;
-  background: url('CaseStudy_wink_banner3.jpg');
+  background: url('CaseStudy_ancestry_banner3.jpg');
 
 }
 
@@ -355,7 +355,7 @@ font-size:14px;
   line-height:24px;
   width:100%;
   float:left;
-  background: url('CaseStudy_wink_banner4.jpg');
+  background: url('CaseStudy_ancestry_banner4.jpg');
 
 }
 
@@ -372,7 +372,7 @@ font-size:14px;
   line-height:26px;
   width:100%;
   float:left;
-  background: url('CaseStudy_wink_banner5.jpg');
+  background: url('CaseStudy_ancestry_banner5.jpg');
 
 }
 
@@ -420,20 +420,12 @@ font-size:14px;
   padding-left:10%;
   font-size:18px;
   width:100%;
-  background: url('CaseStudy_wink_banner1.jpg');
+  background: url('CaseStudy_ancestry_banner1.jpg');
   background-size:100% auto;
 
 }
 
-.banner1 {
-  font-family:"Roboto", sans-serif;
 
-  width:100%;
-  background: url('CaseStudy_wink_banner1.jpg');
-background-repeat:no-repeat;
-
-
-}
 
 
 h2 {
