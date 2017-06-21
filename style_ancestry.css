@@ -1,0 +1,452 @@
+#caseStudyTitle {
+    margin-top: 1em !important;
+    font-family:"Roboto", sans-serif;
+}
+
+p {
+  font-family:"Roboto", sans-serif;
+  padding:5%;
+}
+
+body {
+margin:0;
+
+}
+
+h1 {
+  font-family:"Roboto", sans-serif;
+  font-weight:400;
+  letter-spacing:0.02em;
+  font-size:40px;
+  padding-bottom:0px;
+}
+
+.banner1 {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  padding-top:15%;
+  padding-bottom:0.5%;
+  padding-left:10%;
+  font-size:24px;
+  width:100%;
+  background: url('CaseStudy_ancestry_banner1.jpg');
+background-size:100% auto;
+
+}
+
+
+h2 {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  font-size:24px;
+  color:#3366ff;
+}
+
+.quote {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  font-size:22px;
+  line-height:32px;
+  color:#3366ff;
+}
+
+.details {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  font-size:19px;
+  color:#3366ff;
+    letter-spacing:0.03em;
+  padding-bottom:1.5%;
+  padding-top:2%;
+  padding-left:10%;
+}
+
+hr {
+  border-bottom:0px solid;
+  width:100%;
+  opacity:0.5;
+  color:#aaaaaa;
+  height:1px;
+}
+
+.col1 {
+
+width: 43%;
+padding-left:5%;
+padding-right:8%;
+float:left;
+font-family:"Roboto", sans-serif;
+font-weight:100;
+color:#606060;
+line-height:20px;
+  letter-spacing:0.03em;
+font-size:14px;
+
+}
+
+.col2 {
+
+width: 43%;
+font-family:"Roboto", sans-serif;
+font-weight:300;
+float:left;
+line-height:20px;
+color:#606060;
+  letter-spacing:0.03em;
+font-size:14px;
+
+
+}
+
+
+.fullcol {
+  width:77%;
+  margin-left:11%;
+  margin-right:10%;
+  margin-top:4%;
+  margin-bottom:4%;
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  float:left;
+  line-height:22px;
+  color:#606060;
+  letter-spacing:0.03em;
+  font-size:14px;
+}
+
+.cols {
+width:80%;
+margin-left:6%;
+margin-top:2%;
+margin-bottom:5%;
+font-family:"Roboto", sans-serif;
+font-weight:300;
+float:left;
+
+}
+
+
+.banner2 {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  padding-top:3%;
+  padding-bottom:3%;
+  padding-left:7%;
+  font-size:16px;
+  letter-spacing:0.03em;
+  line-height:24px;
+  width:100%;
+  float:left;
+  background: url('CaseStudy_ancestry_banner2.jpg');
+  background-size:100% auto;
+background-color:#666666;
+  background-repeat:no-repeat;
+
+}
+
+.banner3 {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  padding-top:5%;
+  padding-bottom:5%;
+  font-size:20px;
+  letter-spacing:0.03em;
+  line-height:30px;
+  width:100%;
+  float:left;
+  background: url('CaseStudy_ancestry_banner3.jpg');
+  background-size:100% auto;
+
+
+}
+
+.banner4 {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  padding-top:5%;
+  padding-bottom:5%;
+  font-size:20px;
+  letter-spacing:0.03em;
+  line-height:30px;
+  width:100%;
+  float:left;
+  background: url('CaseStudy_ancestry_banner4.jpg');
+background-size:100% auto;
+}
+
+
+.banner5 {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  padding-top:5%;
+  padding-bottom:5%;
+  padding-left:7%;
+  font-size:21px;
+  letter-spacing:0.03em;
+  line-height:30px;
+  width:100%;
+  float:left;
+  background-color:#cacacd;
+background-size:100% auto;
+}
+
+.banner2text {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  width:55%;
+  padding-right:20%;
+  float:right;
+  text-align:center;
+
+
+}
+
+.banner3text {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  width:55%;
+  padding-left:21%;
+  text-align:center;
+
+
+}
+
+
+.banner5text {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  width:55%;
+  padding-left:10%;
+  float:left;
+  text-align:center;
+  color:#3366ff;
+
+}
+
+
+h4 {
+  font-family:"Roboto", sans-serif;
+  font-weight:400;
+  letter-spacing:0.9;
+  font-size:20px;
+  padding-bottom:0px;
+}
+}
+
+@media screen and (max-width: 1024px){
+}
+
+@media screen and (max-width: 900px){
+}
+
+
+
+@media screen and (max-width: 640px){
+
+  h1 {
+    font-family:"Roboto", sans-serif;
+    font-weight:500;
+    line-height:34px;
+      letter-spacing:0.03em;
+    font-size:28px !important;
+    padding-bottom:0px;
+    width:80%;
+  }
+
+span {
+  display:;
+font-size:18px !important;
+    line-height:24px !important;
+
+}
+
+.details {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  font-size:14px;
+  color:#3366ff;
+    letter-spacing:0.03em;
+  padding-bottom:3%;
+  padding-top:5%;
+  padding-left:11%;
+}
+
+.col1 {
+
+width: 90%;
+padding-left:5%;
+padding-right:8%;
+float:left;
+font-family:"Roboto", sans-serif;
+font-weight:300;
+color:#606060;
+line-height:20px;
+    letter-spacing:0.03em;
+font-size:14px;
+
+}
+
+.col2 {
+
+width: 90%;
+padding-left:5%;
+padding-top:5%;
+padding-bottom:5%;
+font-family:"Roboto", sans-serif;
+font-weight:300;
+float:left;
+line-height:20px;
+color:#606060;
+    letter-spacing:0.03em;
+font-size:14px;
+
+
+}
+
+.banner2 {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  padding-top:4%;
+  padding-bottom:4%;
+  padding-left:10%;
+  font-size:15px;
+    letter-spacing:0.03em;
+  line-height:24px;
+  width:100%;
+  float:left;
+  background:none;
+  background-color:#303030;
+
+
+}
+
+.banner3 {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  padding-top:5%;
+  padding-bottom:5%;
+  font-size:18px;
+    letter-spacing:0.03em;
+  line-height:24px;
+  width:100%;
+  float:left;
+  background: url('CaseStudy_wink_banner3.jpg');
+
+}
+
+.banner4 {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  padding-top:5%;
+  padding-bottom:5%;
+  font-size:18px;
+      letter-spacing:0.03em;
+  line-height:24px;
+  width:100%;
+  float:left;
+  background: url('CaseStudy_wink_banner4.jpg');
+
+}
+
+
+.banner5 {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  padding-top:5%;
+  padding-bottom:5%;
+
+  font-size:20px;
+    letter-spacing:0.03em;
+  line-height:26px;
+  width:100%;
+  float:left;
+  background: url('CaseStudy_wink_banner5.jpg');
+
+}
+
+.banner2text {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  width:80%;
+  padding-left:%;
+  text-align:center;
+
+
+}
+
+.banner3text {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  width:80%;
+  padding-left:10%;
+  text-align:center;
+
+
+}
+
+
+.banner5text {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  width:60%;
+  padding-left:10%;
+  float:left;
+  text-align:center;
+  color:#3366ff;
+
+}
+
+.banner1 {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  padding-top:15%;
+  padding-bottom:0.5%;
+  padding-left:10%;
+  font-size:18px;
+  width:100%;
+  background: url('CaseStudy_wink_banner1.jpg');
+  background-size:100% auto;
+
+}
+
+.banner1 {
+  font-family:"Roboto", sans-serif;
+
+  width:100%;
+  background: url('CaseStudy_wink_banner1.jpg');
+background-repeat:no-repeat;
+
+
+}
+
+
+h2 {
+
+font-size:18px;
+
+}
+
+.quote {
+  font-size:18px;
+  line-height:24px;
+}
+
+@media screen and (max-width: 480px){
+
+}
