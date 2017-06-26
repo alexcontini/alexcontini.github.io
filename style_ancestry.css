@@ -26,6 +26,14 @@ h1 {
   padding-bottom:0px;
 }
 
+.subhead {
+  font-size:26px;
+  font-weight:100;
+  line-height:40px;
+
+}
+
+
 .banner1 {
   font-family:"Roboto", sans-serif;
   font-weight:300;
@@ -35,8 +43,8 @@ h1 {
   padding-left:9.9%;
   font-size:32px;
   background: url('CaseStudy_ancestry_banner1.jpg');
-background-size:100% auto;
-background-repeat:no-repeat;
+  background-size:100% auto;
+  background-repeat:no-repeat;
 
 }
 
@@ -262,12 +270,12 @@ h4 {
     width:80%;
   }
 
-span {
-  display:;
-font-size:18px !important;
-    line-height:1.5em !important;
+  .subhead {
+    font-size:20px;
+    font-weight:100;
+    line-height:30px;
 
-}
+  }
 
 .details {
   font-family:"Roboto", sans-serif;
