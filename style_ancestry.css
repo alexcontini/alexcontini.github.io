@@ -34,7 +34,6 @@ h1 {
   padding-bottom:0.5%;
   padding-left:9.9%;
   font-size:32px;
-  width:100%;
   background: url('CaseStudy_ancestry_banner1.jpg');
 background-size:100% auto;
 background-repeat:no-repeat;
@@ -143,7 +142,6 @@ float:left;
   font-size:21px;
   letter-spacing:0.03em;
   line-height:32px;
-  width:100%;
   float:left;
 
   background-size:100% auto;
@@ -161,7 +159,7 @@ background-color:#666666;
   font-size:21px;
   letter-spacing:0.03em;
   line-height:32px;
-  width:100%;
+
   float:left;
   background: url('CaseStudy_ancestry_banner3.jpg');
   background-size:100% auto;
@@ -178,7 +176,7 @@ background-color:#666666;
   font-size:21px;
   letter-spacing:0.03em;
   line-height:32px;
-  width:100%;
+  
   float:left;
   background: url('CaseStudy_ancestry_banner4.jpg');
 background-size:100% auto;
@@ -195,7 +193,7 @@ background-size:100% auto;
   font-size:21px;
   letter-spacing:0.03em;
   line-height:30px;
-  width:100%;
+
   float:left;
   background-color:#cacacd;
 background-size:100% auto;
