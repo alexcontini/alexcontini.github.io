@@ -392,6 +392,15 @@ h1 {
   color:#ffffff;
 }
 
+.banner4text {
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  width:80%;
+  padding-left:10%;
+  text-align:center;
+}
+
 .banner3text {
   font-family:"Roboto", sans-serif;
   font-weight:300;
@@ -431,8 +440,9 @@ h2 {
 }
 
 @media screen and (max-width: 480px){
+
   .logo {
-      width:22%;
-      padding-bottom:2%;
+    width:22%;
+    padding-bottom:2%;
   }
 }
