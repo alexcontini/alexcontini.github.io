@@ -69,9 +69,9 @@ h2 {
 .details {
   font-family:"Roboto", sans-serif;
   font-weight:300;
-  font-size:19px;
+  font-size:18px;
   color:#3366ff;
-    letter-spacing:0.03em;
+  letter-spacing:0.03em;
   padding-bottom:1.5%;
   padding-top:2%;
   padding-left:10%;
@@ -264,7 +264,7 @@ h4 {
     font-family:"Roboto", sans-serif;
     font-weight:bold;
     line-height:36px;
-      letter-spacing:0.03em;
+    letter-spacing:0.03em;
     font-size:30px !important;
     padding-bottom:0px;
     width:80%;
@@ -280,11 +280,12 @@ h4 {
 .details {
   font-family:"Roboto", sans-serif;
   font-weight:300;
-  font-size:14px;
+  font-size:16px;
   color:#3366ff;
-    letter-spacing:0.03em;
-  padding-bottom:3%;
-  padding-top:5%;
+  letter-spacing:0.03em;
+  padding-bottom:2%;
+  line-height:24px;
+  padding-top:4%;
   padding-left:10%;
 }
 
@@ -298,7 +299,7 @@ font-family:"Roboto", sans-serif;
 font-weight:300;
 color:#606060;
 line-height:20px;
-    letter-spacing:0.03em;
+letter-spacing:0.03em;
 font-size:14px;
 
 }
