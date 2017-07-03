@@ -3,6 +3,11 @@
     font-family:"Roboto", sans-serif;
 }
 
+body {
+
+  background-color:#ffffff;
+}
+
 p {
   font-family:"Roboto", sans-serif;
   padding:5%;
@@ -42,7 +47,7 @@ h1 {
   padding-bottom:0.5%;
   padding-left:9.9%;
   font-size:32px;
-  background: url('CaseStudy_box_banner1.jpg');
+  background: url('/images/CaseStudy_box_banner1.jpg');
   background-size:100% auto;
   background-repeat:no-repeat;
 
@@ -74,8 +79,9 @@ h1 {
   letter-spacing:0.03em;
   line-height:32px;
   float:left;
-  background: url('CaseStudy_box_banner3.jpg');
+  background: url('/images/CaseStudy_box_banner3.jpg');
   background-size:100% auto;
+  background-repeat:no-repeat;
 }
 
 .banner4 {
@@ -88,8 +94,9 @@ h1 {
   letter-spacing:0.03em;
   line-height:32px;
   float:left;
-  background: url('CaseStudy_box_banner4.jpg');
+  background: url('/images/CaseStudy_box_banner4.jpg');
   background-size:100% auto;
+  background-repeat:no-repeat;
 }
 
 .banner5 {
@@ -111,7 +118,7 @@ h1 {
   font-family:"Roboto", sans-serif;
   font-weight:300;
   color:#ffffff;
-  width:60%;
+  width:75%;
   padding-left:19%;
   float:left;
   text-align:center;
@@ -121,7 +128,7 @@ h1 {
   font-family:"Roboto", sans-serif;
   font-weight:300;
   color:#ffffff;
-  width:55%;
+  width:75%;
   padding-left:21%;
   text-align:center;
 }
@@ -130,8 +137,8 @@ h1 {
   font-family:"Roboto", sans-serif;
   font-weight:300;
   color:#ffffff;
-  width:55%;
-  padding-left:21%;
+  width:75%;
+  padding-left:12%;
   text-align:center;
 }
 
@@ -185,24 +192,26 @@ hr {
 
 .col1 {
 
-width: 38%;
+width: 45%;
 padding-left:5%;
+padding-top:3%;
 padding-right:8%;
 float:left;
 font-family:"Roboto", sans-serif;
 font-weight:100;
 color:#606060;
 line-height:20px;
-  letter-spacing:0.03em;
+letter-spacing:0.03em;
 font-size:14px;
 
 }
 
 .col2 {
 
-width: 44%;
+width: 45%;
 font-family:"Roboto", sans-serif;
 font-weight:300;
+padding-top:3%;
 float:left;
 line-height:20px;
 color:#606060;
@@ -229,7 +238,7 @@ font-size:14px;
 }
 
 .cols {
-  width:77%;
+
   margin-left:6%;
   margin-top:1%;
   margin-bottom:4%;
@@ -317,7 +326,7 @@ h1 {
   padding-bottom:2%;
   padding-left:10%;
   font-size:18px;
-  background: url('CaseStudy_box_banner1.jpg');
+  background: url('/images/CaseStudy_box_banner1.jpg');
   background-size:100% auto;
 }
 
@@ -348,7 +357,7 @@ h1 {
   line-height:24px;
   width:100%;
   float:left;
-  background: url('CaseStudy_box_banner3.jpg');
+  background: url('/images/CaseStudy_box_banner3.jpg');
 }
 
 .banner4 {
@@ -362,7 +371,7 @@ h1 {
   line-height:24px;
   width:100%;
   float:left;
-  background: url('CaseStudy_box_banner4.jpg');
+  background: url('/images/CaseStudy_box_banner4.jpg');
 }
 
 .banner5 {
