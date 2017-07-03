@@ -443,13 +443,13 @@ h2 {
 }
 
 .logo {
-  width:35%;
+  width:25%;
 }
 
 @media screen and (max-width: 480px){
 
   .logo {
-    width:50%;
+    width:40%;
     padding-bottom:5%;
   }
 }
