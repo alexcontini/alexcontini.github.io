@@ -132,8 +132,8 @@ h1 {
   font-family:"Roboto", sans-serif;
   font-weight:300;
   color:#ffffff;
-  width:60%;
-  padding-left:20%;
+  width:70%;
+  padding-left:15%;
   text-align:center;
 }
 
@@ -280,7 +280,7 @@ h1 {
 }
 
 .col1 {
-  width: 100%;
+  width: 90%;
   padding-left:5%;
   padding-right:8%;
   float:left;
@@ -293,7 +293,7 @@ h1 {
 }
 
 .col2 {
-  width: 100%;
+  width: 90%;
   padding-left:5%;
   padding-top:5%;
   padding-bottom:5%;
@@ -343,9 +343,7 @@ h1 {
   font-size:18px;
   letter-spacing:0.03em;
   line-height:24px;
-  width:80%;
-  padding-left:15%;
-  padding-right:10%;
+  width:100%;
   float:left;
   background: url('CaseStudy_ancestry_banner3.jpg');
 }
@@ -370,7 +368,6 @@ h1 {
   color:#ffffff;
   padding-top:4%;
   padding-bottom:4%;
-  padding-left:0%;
   font-size:18px;
   letter-spacing:0.03em;
   line-height:24px;
@@ -396,8 +393,7 @@ h1 {
   font-weight:300;
   color:#ffffff;
   width:80%;
-  padding-left:2%;
-  padding-right:10%;
+  padding-left:5%;
   padding-top:5%;
   padding-bottom:5%;
   text-align:center;
@@ -409,6 +405,8 @@ h1 {
   color:#ffffff;
   width:80%;
   padding-left:10%;
+  padding-top:3%;
+  padding-bottom:3%;
   text-align:center;
 }
 
