@@ -132,6 +132,13 @@ letter-spacing:0.1em;
   border: 2px solid #3399ff;
 }
 
+.button2:hover {
+
+  background-color:white;
+  color:#3399ff;
+  border: 2px solid #3399ff;
+}
+
 .button2:target {
 
   background-color:white;
@@ -158,6 +165,16 @@ letter-spacing:0.1em;
   width:300px;
 
 }
+.tab1:hover {
+  background-color:#ffffff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; /* future proofing */
+  -khtml-border-radius: 5px; /* for old Konqueror browsers */
+  border: 2px solid #999999;
+
+
+}
 
 
 .tab1text{
@@ -175,6 +192,7 @@ color:#ffffff;;
 font-family:'roboto';
 width:100%;
 margin:0px;
+font-size:34 !important;
 
 
 }
