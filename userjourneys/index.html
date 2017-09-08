@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+<script src="jquery-3.2.1.min.js"></script>
 
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="style.css">
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script src="https://use.fontawesome.com/4bcc658a89.js"></script>
-<script>var clickedBuffer=null;
-function overviewPane(obj){
-    if typeOf(clickedBuffer) === null {
-      obj.button1='active';
-   }
-  else{
-                 /* note the class name contains a black character  before and after the word !! */
-                clickedBuffer.button1.replace(' active ','');
-               obj.button1= obj.button1 + ' active ';
-  }
-  clickedBuffer=obj;
-  return false; /* ONLY if you want the  button not to lead to another HTML doc*/
-}</script>
+<script>
+$('.button2').click(function(){
+    if($(this).hasClass('active')){
+        $(this).removeClass('active')
+    } else {
+        $(this).addClass('active')
+    }
+});
+</script>
 
     <title>
 
@@ -118,7 +115,7 @@ Engineer
 Etiam mattis felis vitae est dapibus, in rhoncus mi mattis. Donec feugiat pellentesque</div>
 <div class="tabbottom">
 
-      <i class="fa fa-caret-down" aria-hidden="true" style="color:white;" style="font-size:12px; !important"></i>
+      <i class="fa fa-caret-down" aria-hidden="true" style="color:white;font-size:32px; !important"></i>
 
     </div>
   </div>
