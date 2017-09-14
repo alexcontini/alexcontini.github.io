@@ -50,8 +50,7 @@ color:#ffffff;
 
 }
 
-
-.bar3 {
+.cards {
 padding:3%;
 background-color:#ffffff;
 text-align:center;
@@ -59,13 +58,13 @@ font-family: 'roboto';
 text-transform:uppercase;
 text-align:center;
 letter-spacing:0.1em;
-
-
-
 }
 
+.cards > div {
+  display: none;
+}
 
-.button1 {
+button {
 
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -83,20 +82,45 @@ letter-spacing:0.1em;
 
 }
 
-.button1:active {
+
+.navButton {
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; /* future proofing */
+  -khtml-border-radius: 5px; /* for old Konqueror browsers */
+  border: 2px solid #ffffff;
+  padding:1%;
+  margin:1%;
+  color:#ffffff;
+  font-family: 'roboto';
+  text-transform:uppercase;
+  text-align:center;
+  letter-spacing:0.1em;
+  display: inline-block;
+
+}
+
+.navButton:active {
 
   background-color:white;
   color:#3399ff;
 }
 
-.button1:focus {
+.navButton:visited {
+
+  background-color:white;
+  color:#3399ff;
+}
+
+.navButton:focus {
 
   background-color:white !important</div>;
   color:#3399ff;
 }
 
 
-.button1:hover {
+.navButton:hover {
 
   background-color:white;
   color:#3399ff;
@@ -104,7 +128,7 @@ letter-spacing:0.1em;
 
 
 
-.button2 {
+.buttons {
   background-color:#3399ff;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -125,27 +149,76 @@ letter-spacing:0.1em;
 
 }
 
-.button2:active {
+
+.buttonoption1 {
+  background-color:#3399ff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; /* future proofing */
+  -khtml-border-radius: 5px; /* for old Konqueror browsers */
+  border: 2px solid #ffffff;
+  padding:2%;
+  margin:1%;
+  color:#ffffff;
+  font-family: 'roboto';
+  text-transform:uppercase;
+  text-align:center;
+  letter-spacing:0.1em;
+  display: inline-block;
+  width:250px;
+  vertical-align:middle;
+
+
+}
+
+
+
+.buttons:active .active{
 
   background-color:white;
   color:#3399ff;
   border: 2px solid #3399ff;
 }
 
-.button2:hover {
+.buttons:hover {
 
   background-color:white;
   color:#3399ff;
   border: 2px solid #3399ff;
+  cursor: pointer;
 }
 
-.button2:target {
+.buttons:target {
 
   background-color:white;
   color:#3399ff;
   border: 2px solid #3399ff;
 
 }
+
+.buttons:visited {
+
+  background-color:white;
+  color:#3399ff;
+  border: 2px solid #3399ff;
+
+}
+
+.buttons.selected {
+  background-color:white;
+  color:#3399ff;
+  border: 2px solid #3399ff;
+
+}
+
+.keepShow {
+
+  background-color:white;
+  color:#3399ff;
+  border: 2px solid #3399ff;
+
+}
+
 .tab1 {
   background-color:#cccccc;
   -moz-border-radius: 5px;
@@ -154,7 +227,9 @@ letter-spacing:0.1em;
   -khtml-border-radius: 5px; /* for old Konqueror browsers */
   border: 2px solid #ffffff;
   padding:0%;
+  padding-top:3%;
   margin:1%;
+  margin-top:4%;
   color:#ffffff;
   font-family: 'roboto';
   font-weight:100;
@@ -162,17 +237,20 @@ letter-spacing:0.1em;
   text-align:center;
   letter-spacing:0.1em;
   display: inline-block;
-  width:300px;
+  width:300px;  cursor: pointer;
+  cursor: pointer;
+
 
 }
-.tab1:hover {
+.tab1:hover, .tab1.selected {
   background-color:#ffffff;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px; /* future proofing */
   -khtml-border-radius: 5px; /* for old Konqueror browsers */
-  border: 2px solid #999999;
+  border: 2px solid #000066;
 
+  cursor: pointer;
 
 }
 
@@ -200,32 +278,35 @@ font-size:34 !important;
 
 i {
 
-  font-size:54px !important;
+  font-size:44px !important;
   text-align:center;
   color:#000066;
 
 }
-
+.infobarWrapper {
+    visibility: hidden;
+    height: 70vh;
+}
 .infobar {
-  padding:0%;
-  background-color:#3399ff;
-  text-align:center;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px; /* future proofing */
-  -khtml-border-radius: 5px; /* for old Konqueror browsers */
-  border: 2px solid #ffffff;
-  padding:2%;
+    padding:0%;
+    background-color:#3399ff;
+    text-align:center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+    border: 2px solid #ffffff;
+    padding:2%;
     font-size:22px;
     line-height:30px;
     letter-spacing:0.07em;
     text-transform:uppercase;
-  margin:1%;
-  font-weight:bold;
-  color:#ffffff;
-  font-family: 'roboto';
-  width:72%;
-  margin-left:12%;
+    margin:3%;
+    font-weight:bold;
+    color:#ffffff;
+    font-family: 'roboto';
+    width:72%;
+    margin-left:12%;
     margin-bottom:3%;
 
 
@@ -238,8 +319,8 @@ i {
   -khtml-border-radius: 5px; /* for old Konqueror browsers */
   background-color:#ffffff;
       text-transform:none;
-  padding:2%;
-  font-size:14px;
+  padding:3%;
+  font-size:15px;
   z-index:99;
   font-weight:100;
   line-height:18pt;
@@ -247,6 +328,23 @@ i {
   margin:1%;
   text-align:left;
 }
+
+.whitebararrow{
+  float:right
+  padding:3%;
+  font-size:15px;
+  z-index:99;
+  font-weight:100;
+  line-height:18pt;
+  color:#606060;
+  margin:1%;
+  text-align:right;
+}
+
+
+
+
+
 
 .hide {
 
