@@ -109,18 +109,21 @@ button {
 
   background-color:white;
   color:#3399ff;
+  border: 2px solid #ffffff;
 }
 
 .navButton:visited {
 
   background-color:white;
   color:#3399ff;
+  border: 2px solid #ffffff;
 }
 
 .navButton:focus {
 
   background-color:white !important</div>;
   color:#3399ff;
+  border: 2px solid #ffffff;
 }
 
 
@@ -128,6 +131,7 @@ button {
 
   background-color:white;
   color:#3399ff;
+  border: 2px solid #ffffff;
 }
 
 
@@ -219,7 +223,7 @@ button {
 
   background-color:white;
   color:#3399ff;
-  border: 2px solid #3399ff;
+  border: 2px solid white;
 
 }
 
