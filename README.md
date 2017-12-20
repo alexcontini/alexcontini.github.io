@@ -4,7 +4,7 @@ In this repo, you can find artwork in standard formats for the CNCF [projects](h
 
 <img src="https://github.com/alexcontini/artwork/blob/master/kubernetes/horizontal/color/kubernetes-horizontal-noborder-color.png" width="200" display="inline">
 <img src="https://github.com/alexcontini/artwork/blob/master/kubernetes/stacked/color/kubernetes-stacked-noborder-color.png" width=“100" display="inline">
-<img src="https://github.com/alexcontini/artwork/blob/master/kubernetes/icon/color/kubernetes-icon-noborder-color.png" width=“75” display="inline">
+<img src="https://github.com/alexcontini/artwork/blob/master/kubernetes/icon/color/kubernetes-icon-noborder-color.png" width=“75” style=“display:inline">
 
 
 We also include logos for the [CNCF](https://github.com/cncf/artwork/tree/master/cncf/horizontal/color), Certified Kubernetes Administrators ([CKA](https://github.com/cncf/artwork/tree/master/other/cka/color)), Kubernetes Certified Service Providers ([KCSP](https://github.com/cncf/artwork/tree/master/other/kcsp/color)), CNCF [Ambassadors](https://github.com/cncf/artwork/tree/master/other/ambassador/stacked/color) and KubeCon and CloudNativeCon ([KCCNC](https://github.com/cncf/artwork/tree/master/other/kubecon-cloudnativecon/na-2018/color)).
