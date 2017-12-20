@@ -2,6 +2,12 @@
 
 In this repo, you can find artwork in standard formats for the CNCF [projects](https://www.cncf.io/projects/) and programs. We prepare artwork in PNG, SVG and AI formats. Artwork labeled Pantone should only be used in print. Artwork is generally available in horizontal (also known as landscape format), stacked (which is closer to square), and icon (which does not include the name and are square).
 
+<img src="https://github.com/cncf/artwork/blob/master/cncf/horizontal/color/kubernetes-horizontal-color.png" width="200">
+<img src="https://github.com/cncf/artwork/blob/master/cncf/horizontal/color/cni-horizontal-color.png" width="200">
+<img src="https://github.com/cncf/artwork/blob/master/cncf/horizontal/color/cni-horizontal-color.png" width="200">
+
+
+
 We also include logos for the [CNCF](https://github.com/cncf/artwork/tree/master/cncf/horizontal/color), Certified Kubernetes Administrators ([CKA](https://github.com/cncf/artwork/tree/master/other/cka/color)), Kubernetes Certified Service Providers ([KCSP](https://github.com/cncf/artwork/tree/master/other/kcsp/color)), CNCF [Ambassadors](https://github.com/cncf/artwork/tree/master/other/ambassador/stacked/color) and KubeCon and CloudNativeCon ([KCCNC](https://github.com/cncf/artwork/tree/master/other/kubecon-cloudnativecon/na-2018/color)).
 
 Use of any trademark or logo is subject to the trademark policy available at https://www.linuxfoundation.org/trademark-usage
@@ -11,7 +17,6 @@ The [Certified Kubernetes](https://github.com/cncf/artwork/tree/master/kubernete
 Questions? Please email [info@cncf.io](mailto:info@cncf.io).
 
 
-![](https://github.com/cncf/artwork/blob/master/cncf/horizontal/color/cncf-color.png =100x20)
 
 
 <img src="https://github.com/cncf/artwork/blob/master/cncf/horizontal/color/cncf-color.png" width="200">
