@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# CNCF related logos and artwork
 
-You can use the [editor on GitHub](https://github.com/alexcontini/alexcontini.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+In this repo, you can find artwork in standard formats for the CNCF [projects](https://www.cncf.io/projects/) and programs. We prepare artwork in PNG, SVG and AI formats. Artwork labeled Pantone should only be used in print. Artwork is generally available in horizontal (also known as landscape format), stacked (which is closer to square), and icon (which does not include the name and are square).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We also include logos for the [CNCF](https://github.com/cncf/artwork/tree/master/cncf/horizontal/color), Certified Kubernetes Administrators ([CKA](https://github.com/cncf/artwork/tree/master/other/cka/color)), Kubernetes Certified Service Providers ([KCSP](https://github.com/cncf/artwork/tree/master/other/kcsp/color)), CNCF [Ambassadors](https://github.com/cncf/artwork/tree/master/other/ambassador/stacked/color) and KubeCon and CloudNativeCon ([KCCNC](https://github.com/cncf/artwork/tree/master/other/kubecon-cloudnativecon/na-2018/color)).
 
-### Markdown
+Use of any trademark or logo is subject to the trademark policy available at https://www.linuxfoundation.org/trademark-usage
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The [Certified Kubernetes](https://github.com/cncf/artwork/tree/master/kubernetes/certified-kubernetes) marks are only available for use with [conformant](https://www.cncf.io/certification/software-conformance/) platforms and distributions and must comply with the [brand guidelines](https://github.com/cncf/artwork/tree/master/kubernetes/certified-kubernetes/certified-kubernetes-brand-guide.pdf).
 
-```markdown
-Syntax highlighted code block
+Questions? Please email [info@cncf.io](mailto:info@cncf.io).
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alexcontini/alexcontini.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<img src=https://github.com/cncf/artwork/tree/master/cncf/horizontal/color>
