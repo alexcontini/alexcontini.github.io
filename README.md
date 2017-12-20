@@ -11,4 +11,4 @@ The [Certified Kubernetes](https://github.com/cncf/artwork/tree/master/kubernete
 Questions? Please email [info@cncf.io](mailto:info@cncf.io).
 
 
-![alt text](https://github.com/cncf/artwork/tree/master/cncf/horizontal/color) test
+![alt text](https://github.com/cncf/artwork/blob/master/cncf/horizontal/color/cncf-color.png)
