@@ -2,7 +2,10 @@
 
 In this repo, you can find artwork in standard formats for the CNCF [projects](https://www.cncf.io/projects/) and programs. We prepare artwork in PNG, SVG and AI formats. Artwork labeled Pantone should only be used in print. Artwork is generally available in horizontal (also known as landscape format), stacked (which is closer to square), and icon (which does not include the name and are square).
 
-<img src="https://github.com/alexcontini/artwork/blob/master/kubernetes/horizontal/color/kubernetes-horizontal-noborder-color.png" width="200"><img src="https://github.com/alexcontini/artwork/blob/master/kubernetes/stacked/color/kubernetes-stacked-noborder-color.png" width=“150">
+<img src="https://github.com/alexcontini/artwork/blob/master/kubernetes/horizontal/color/kubernetes-horizontal-noborder-color.png" width="200">
+
+<img src="https://github.com/alexcontini/artwork/blob/master/kubernetes/stacked/color/kubernetes-stacked-noborder-color.png" width=“150">
+
 <img src="https://github.com/alexcontini/artwork/blob/master/kubernetes/icon/color/kubernetes-icon-noborder-color.png" width=“100">
 
 
