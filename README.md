@@ -44,6 +44,6 @@ Questions? Please email [info@cncf.io](mailto:info@cncf.io).
 
 
 
-<img src="https://github.com/cncf/artwork/blob/master/cncf/horizontal/color/cncf-color.png" width="200">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/cka/color/kubernetes-cka-color.png" width="100">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/cka/color/kubernetes-cka-color.png" width="200">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/cka/color/kubernetes-cka-color.png" width="100">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/kcsp/color/kubernetes-kcsp-color.png" width="100">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/ambassador/horizontal/color/cncf-ambassador-colour-horizontal.png" width="200">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/kubecon-cloudnativecon/na-2018/color/kccnc-na-color.png" width="200">
+<img src="https://github.com/cncf/artwork/blob/master/cncf/horizontal/color/cncf-color.png" width="200">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/cka/color/kubernetes-cka-color.png" width="100">&nbsp;&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/kcsp/color/kubernetes-kcsp-color.png" width="100">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/ambassador/horizontal/color/cncf-ambassador-colour-horizontal.png" width="200">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/kubecon-cloudnativecon/na-2018/color/kccnc-na-color.png" width="200">
 
 
