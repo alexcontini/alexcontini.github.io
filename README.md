@@ -11,9 +11,9 @@ In this repo, you can find artwork in standard formats for the CNCF [projects](h
 
 <img src="https://github.com/alexcontini/artwork/blob/master/fluentd/horizontal/color/fluentd-horizontal-color.png" width="200">      &nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/fluentd/stacked/color/fluentd-stacked-color.png" width="120">&nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/fluentd/icon/color/fluentd-icon-color.png" width="75">
 
-<img src="https://github.com/cncf/artwork/blob/master/linkerd/horizontal/Color/linkerd-horizontal-color.png" width="200">      &nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/linkerd/stacked/color/linkerd-stacked-color.png" width="90">   &nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/linkerd/icon/color/linkerd-icon-color.png" width="80">
+<img src="https://github.com/cncf/artwork/blob/master/linkerd/horizontal/Color/linkerd-horizontal-color.png" width="200">      &nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/linkerd/stacked/color/linkerd-stacked-color.png" width="100">   &nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/linkerd/icon/color/linkerd-icon-color.png" width="80">
 
-<img src="https://github.com/cncf/artwork/blob/master/grpc/horizontal/color/grpc-horizontal-color.png" width="200">      &nbsp;  &nbsp;  &nbsp; 
+<img src="https://github.com/cncf/artwork/blob/master/grpc/horizontal/color/grpc-horizontal-color.png" width="200">      &nbsp;  &nbsp;  &nbsp;  <img src="https://github.com/cncf/artwork/blob/master/grpc/icon/color/grpc-icon-color.png" width="200">
 
 <img src="https://github.com/cncf/artwork/blob/master/coredns/horizontal/solid color/core-dns_horizontal-solid-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/coredns/stacked/solid color/core-dns-stacked-solid-color.png" width="120" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/coredns/icon/color/core-dns-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
 
@@ -37,7 +37,7 @@ In this repo, you can find artwork in standard formats for the CNCF [projects](h
 | col 1 is |  left-aligned | $1600 |
 | col 2 is |    centered   |   $12 |
 | col 3 is | right-aligned |    $1 |
-|          |               |       |
+| <img src="https://github.com/cncf/artwork/blob/master/tuf/horizontal/color/tuf-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">           |               |       |
 |          |               |       |
 |          |               |       |
 |          |               |       |
