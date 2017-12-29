@@ -17,7 +17,7 @@ In this repo, you can find artwork in standard formats for the CNCF [projects](h
 
 <img src="https://github.com/cncf/artwork/blob/master/coredns/horizontal/solid color/core-dns_horizontal-solid-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/coredns/stacked/solid color/core-dns-stacked-solid-color.png" width="120" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/coredns/icon/color/core-dns-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
 
-<img src="https://github.com/cncf/artwork/blob/master/containerd/horizontal/color/containerd-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/containerd/stacked/color/containerd-stacked-color.png" width="120" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/containerd/icon/color/containerd-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
+<img src="https://github.com/cncf/artwork/blob/master/containerd/horizontal/color/containerd-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/containerd/stacked/color/containerd-stacked-color.png" width="100" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/containerd/icon/color/containerd-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
 
 <img src="https://github.com/cncf/artwork/blob/master/rkt/horizontal/color/rkt-horizontal-color.png" width="180" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  <img src="https://github.com/cncf/artwork/blob/master/rkt/stacked/color/rkt-stacked-color.png" width="100" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  <img src="https://github.com/cncf/artwork/blob/master/rkt/icon/color/rkt-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
 
@@ -31,6 +31,8 @@ In this repo, you can find artwork in standard formats for the CNCF [projects](h
 
 <img src="https://github.com/cncf/artwork/blob/master/tuf/horizontal/color/tuf-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/tuf/stacked/color/tuf-stacked-color.png" width="110" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/tuf/icon/color/tuf-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
 
+
+
 We also include logos for the [CNCF](https://github.com/cncf/artwork/tree/master/cncf/horizontal/color), Certified Kubernetes Administrators ([CKA](https://github.com/cncf/artwork/tree/master/other/cka/color)), Kubernetes Certified Service Providers ([KCSP](https://github.com/cncf/artwork/tree/master/other/kcsp/color)), CNCF [Ambassadors](https://github.com/cncf/artwork/tree/master/other/ambassador/stacked/color) and KubeCon and CloudNativeCon ([KCCNC](https://github.com/cncf/artwork/tree/master/other/kubecon-cloudnativecon/na-2018/color)).
 
 Use of any trademark or logo is subject to the trademark policy available at https://www.linuxfoundation.org/trademark-usage
@@ -42,4 +44,6 @@ Questions? Please email [info@cncf.io](mailto:info@cncf.io).
 
 
 
-<img src="https://github.com/cncf/artwork/blob/master/cncf/horizontal/color/cncf-color.png" width="200">
+<img src="https://github.com/cncf/artwork/blob/master/cncf/horizontal/color/cncf-color.png" width="200”>&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/cka/color/kubernetes-cka-color.png" width="100">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/cka/color/kubernetes-cka-color.png" width="200">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/cka/color/kubernetes-cka-color.png" width="100">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/kcsp/color/kubernetes-kcsp-color.png" width="100">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/ambassador/horizontal/color/cncf-ambassador-colour-horizontal.png" width="200">&nbsp;<img src="https://github.com/cncf/artwork/blob/master/other/kubecon-cloudnativecon/na-2018/color/kccnc-na-color.png" width="200">
+
+
