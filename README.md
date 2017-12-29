@@ -19,9 +19,9 @@ In this repo, you can find artwork in standard formats for the CNCF [projects](h
 
 <img src="https://github.com/cncf/artwork/blob/master/containerd/horizontal/color/containerd-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/containerd/stacked/color/containerd-stacked-color.png" width="120" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/containerd/icon/color/containerd-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
 
-<img src="https://github.com/cncf/artwork/blob/master/rkt/horizontal/color/rkt-horizontal-color.png" width="180" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  <img src="https://github.com/cncf/artwork/blob/master/rkt/stacked/color/rkt-stacked-color.png" width="80" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  <img src="https://github.com/cncf/artwork/blob/master/rkt/icon/color/rkt-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
+<img src="https://github.com/cncf/artwork/blob/master/rkt/horizontal/color/rkt-horizontal-color.png" width="180" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  <img src="https://github.com/cncf/artwork/blob/master/rkt/stacked/color/rkt-stacked-color.png" width="100" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  <img src="https://github.com/cncf/artwork/blob/master/rkt/icon/color/rkt-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
 
-<img src="https://github.com/cncf/artwork/blob/master/cni/horizontal/color/cni-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp;  &nbsp;  <img src="https://github.com/cncf/artwork/blob/master/cni/stacked/color/cni-stacked-color.png" width="90" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; &nbsp;  <img src="https://github.com/cncf/artwork/blob/master/cni/icon/Color/cni-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
+<img src="https://github.com/cncf/artwork/blob/master/cni/horizontal/color/cni-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp;  &nbsp;  <img src="https://github.com/cncf/artwork/blob/master/cni/stacked/color/cni-stacked-color.png" width="100" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; &nbsp;  <img src="https://github.com/cncf/artwork/blob/master/cni/icon/Color/cni-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
 
 <img src="https://github.com/cncf/artwork/blob/master/envoy/horizontal/color/envoy-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/envoy/stacked/color/envoy-stacked-color.png" width="110" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/envoy/icon/color/envoy-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
 
@@ -32,12 +32,12 @@ In this repo, you can find artwork in standard formats for the CNCF [projects](h
 <img src="https://github.com/cncf/artwork/blob/master/tuf/horizontal/color/tuf-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/tuf/stacked/color/tuf-stacked-color.png" width="110" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; <img src="https://github.com/cncf/artwork/blob/master/tuf/icon/color/tuf-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
 
 
-| Tables   |      Are      |  Cool |
+
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
 | col 2 is |    centered   |   $12 |
 | col 3 is | right-aligned |    $1 |
-| <img src="https://github.com/cncf/artwork/blob/master/tuf/horizontal/color/tuf-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">           |               |       |
+| <img src="https://github.com/cncf/artwork/blob/master/tuf/horizontal/color/tuf-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">  <img src="https://github.com/alexcontini/artwork/blob/master/kubernetes/horizontal/color/kubernetes-horizontal-noborder-color.png" width="200"         |               |       |
 |          |               |       |
 |          |               |       |
 |          |               |       |
