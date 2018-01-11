@@ -1,4 +1,4 @@
----
+[---
 title: BlackRock Case Study
 layout: none
 class: gridPage
@@ -25,7 +25,7 @@ cid: caseStudies
 </div>
 
 <div class="details">
-    Company &nbsp;<b>BlackRock</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location &nbsp;<b>New York, NY</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Industry &nbsp;<b>?</b>
+    Company &nbsp;<b>BlackRock</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location &nbsp;<b>New York, NY</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Industry &nbsp;<b>Financial Services</b>
 </div>
 
 <hr>
@@ -33,7 +33,7 @@ cid: caseStudies
 <div class="cols">
   <div class="col1">
     <h2>Challenge</h2>
-        The world’s largest asset manager, <a href="https://www.blackrock.com/investing">BlackRock</a> operates a very controlled static deployment scheme, which has allowed for scalability over the years. But in their data science division, there was a need for more dynamic access to resources. "We want to be able to give every investor access to data science, meaning <a href="https://www.python.org">Python</a> notebooks, or even something much more advanced, like a map-reduce engine based on <a href="https://spark.apache.org">Spark</a>," says Michael Francis, a Managing Director in BlackRock’s  Product Group, which runs the company’s investment management platform. "Managing complex Python installations on users’ desktops is really hard because everyone ends up with slightly different environments. We have existing environments that do these things, but we needed to make it real, expansive and scaleable. Being able to spin that up on demand, tear it down, make that much more dynamic, became a critical thought process for us. It’s not so much that we had to solve our main core production problem, it’s how do we extend that? How do we evolve?"
+        The world’s largest asset manager, <a href="https://www.blackrock.com/investing">BlackRock</a> operates a very controlled static deployment scheme, which has allowed for scalability over the years. But in their data science division, there was a need for more dynamic access to resources. "We want to be able to give every investor access to data science, meaning <a href="https://www.python.org">Python</a> notebooks, or even something much more advanced, like a MapReduce engine based on <a href="https://spark.apache.org">Spark</a>," says Michael Francis, a Managing Director in BlackRock’s  Product Group, which runs the company’s investment management platform. "Managing complex Python installations on users’ desktops is really hard because everyone ends up with slightly different environments. We have existing environments that do these things, but we needed to make it real, expansive and scaleable. Being able to spin that up on demand, tear it down, make that much more dynamic, became a critical thought process for us. It’s not so much that we had to solve our main core production problem, it’s how do we extend that? How do we evolve?"
       </div>
 
 <div class="col2">
@@ -41,7 +41,7 @@ cid: caseStudies
     Drawing from what they learned during a pilot done last year using <a href="https://www.docker.com">Docker</a> environments, Francis put together a cross-sectional team of 20 to build an investor research web app using <a href="https://kubernetes.io">Kubernetes</a> with the goal of getting it into production within one quarter.
 <br>
 <h2>Impact</h2>
-        "Our goal was: How do you give people tools rapidly without having to install them on their desktop?" says Francis. And the team hit the goal within the 100 days. Francis is pleased with the results and says, "We’re going to use this infrastructure for lots of other application workloads as time goes on. It’s not just data science; it’s this style of application that needs the dynamism. But I think we’re 6-12 months away from making a [large scale] decision. We need to gain experience of running the system in production, we need to understand failure modes and how best to manage operational issues. What’s interesting is that just having this technology there is changing the way our developers are starting to think about their future development."
+        "Our goal was: How do you give people tools rapidly without having to install them on their desktop?" says Francis. And the team hit the goal within 100 days. Francis is pleased with the results and says, "We’re going to use this infrastructure for lots of other application workloads as time goes on. It’s not just data science; it’s this style of application that needs the dynamism. But I think we’re 6-12 months away from making a [large scale] decision. We need to gain experience of running the system in production, we need to understand failure modes and how best to manage operational issues. What’s interesting is that just having this technology there is changing the way our developers are starting to think about their future development."
 
 </div>
 
@@ -54,12 +54,12 @@ cid: caseStudies
 </div>
 
 <div class="fullcol">
-  One of the management objectives for BlackRock’s  Product Group employees in 2017 is to "build cool stuff." Led by Managing Director Michael Francis, a cross-sectional group of 20 did just that: They rolled out a full production Kubernetes environment and released a new investor research web app on it. In 100 days.<br><br>
+  One of the management objectives for BlackRock’s  Product Group employees in 2017 was to "build cool stuff." Led by Managing Director Michael Francis, a cross-sectional group of 20 did just that: They rolled out a full production Kubernetes environment and released a new investor research web app on it. In 100 days.<br><br>
   For a company that’s the world’s largest asset manager, "just equipment procurement can take 100 days sometimes, let alone from inception to delivery," says Karl Wieman, a Senior System Administrator. "It was an aggressive schedule. But it moved the dial."
   In fact, the project achieved two goals: It solved a business problem (creating the needed web app) as well as provided real-world, in-production experience with Kubernetes, a cloud-native technology that the company was eager to explore. "It’s not so much that we had to solve our main core production problem, it’s how do we extend that? How do we evolve?" says Francis. The ultimate success of this project, beyond delivering the app, lies in the fact that "we’ve managed to integrate a radically new thought process into a controlled infrastructure that we didn’t want to change."<br><br>
   After all, in its three decades of existence, BlackRock has "a very well-established environment for managing our compute resources," says Francis. "We manage large cluster processes on machines, so we do a lot of orchestration and management for our main production processes in a way that’s very cloudish in concept. We’re able to manage them in a very controlled, static deployment scheme, and that has given us a huge amount of scalability."<br><br>
   Though that works well for the core production, the company has found that some data science workloads require more dynamic access to resources. "It’s a very bursty process," says Francis, who is head of data for the company’s Aladdin investment management platform division.<br><br>
-  Aladdin, which connects the people, information and technology needed for money management in real time, is used internally and is also sold as a platform to other asset managers and insurance companies. "We want to be able to give every investor access to data science, meaning <a href="https://www.python.org">Python</a> notebooks, or even something much more advanced, like a map-reduce engine based on <a href="https://spark.apache.org">Spark</a>," says Francis. But "managing complex Python installations on users’ desktops is really hard because everyone ends up with slightly different environments. Docker allows us to flatten that environment."
+  Aladdin, which connects the people, information and technology needed for money management in real time, is used internally and is also sold as a platform to other asset managers and insurance companies. "We want to be able to give every investor access to data science, meaning <a href="https://www.python.org">Python</a> notebooks, or even something much more advanced, like a MapReduce engine based on <a href="https://spark.apache.org">Spark</a>," says Francis. But "managing complex Python installations on users’ desktops is really hard because everyone ends up with slightly different environments. Docker allows us to flatten that environment."
 
 
 </div>
@@ -100,13 +100,13 @@ cid: caseStudies
 
 <div class="banner5">
   <div class="banner5text">
-    "The core infrastructure components of Kubernetes are hooked into our existing orchestration framework, which means that anyone in our support team has both control and visibility to the cluster using the existing operational tools."
+    "The core infrastructure components of Kubernetes are hooked into our existing orchestration framework, which means that anyone in our support team has both control and visibility to the cluster using the existing operational tools. That means that I don’t need to hire more people."
 
   </div>
 </div>
 
 <div class="fullcol">
-  They were led by one key axiom: To stay focused and avoid scope creep. This meant that they wouldn’t use features that weren’t in the core of Kubernetes and Docker. But if there was a real need, they’d build the features themselves. Luckily, Francis says, "Because of the rapidity of the development, a lot of things we thought we would have to build ourselves have been rolled into the core product. [The package manager <a href="https://helm.sh">Helm</a> is one example. People have similar problems."<br><br>
+  They were led by one key axiom: To stay focused and avoid scope creep. This meant that they wouldn’t use features that weren’t in the core of Kubernetes and Docker. But if there was a real need, they’d build the features themselves. Luckily, Francis says, "Because of the rapidity of the development, a lot of things we thought we would have to build ourselves have been rolled into the core product. [The package manager<a href="https://helm.sh">Helm</a> is one example]. People have similar problems."<br><br>
   By the end of the 100 days, the app was up and running for internal BlackRock users. The initial capacity of 30 users was hit within hours, and quickly increased to 150. "People were immediately all over it," says Francis. In the next phase of this project, they are planning to scale up the cluster to have more capacity.<br><br>
   Even more importantly, they now have in-production experience with Kubernetes that they can continue to build on—and a complete framework for rolling out new applications. "We’re going to use this infrastructure for lots of other application workloads as time goes on. It’s not just data science; it’s this style of application that needs the dynamism," says Francis. "Is it the right place to move our core production processes onto? It might be. We’re not at a point where we can say yes or no, but we felt that having real production experience with something like Kubernetes at some form and scale would allow us to understand that. I think we’re 6-12 months away from making a [large scale] decision. We need to gain experience of running the system in production, we need to understand failure modes and how best to manage operational issues."<br><br>
   For other big companies considering a project like this, Francis says commitment and dedication are key: "We got the signoff from [senior management] from day one, with the commitment that we were able to get the right people. If I had to isolate what makes something complex like this succeed, I would say senior hands-on people who can actually drive it make a huge difference." With that in place, he adds, "My message to other enterprises like us is you can actually integrate Kubernetes into an existing, well-orchestrated machinery. You don’t have to throw out everything you do. And using Kubernetes made a complex problem significantly easier."
