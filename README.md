@@ -29,10 +29,8 @@ In this repo, you can find artwork in standard formats for the CNCF [projects](h
 
 <img src="/tuf/horizontal/color/tuf-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp; <img src="/tuf/stacked/color/tuf-stacked-color.png" width="110" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; <img src="/tuf/icon/color/tuf-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
 
-<img src="/vitess/horizontal/color/vitess-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp; <img src="/vitess/stacked/color/vitess-stacked-color.png" width="110" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; <img src="/vitess/icon/color/vitess-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">
+<img src="/vitess/horizontal/color/vitess-horizontal-color.png" width="200" style="display:inline;vertical-align:middle;padding:2%">      &nbsp;  &nbsp;  &nbsp; <img src="/vitess/stacked/color/vitess-stacked-color.png" width="110" style="display:inline;vertical-align:middle;padding:2%">&nbsp;  &nbsp;  &nbsp; <img src="/vitess/icon/color/vitess-icon-color.png" width="75" style="display:inline;vertical-align:middle;padding:2%">   &nbsp;  &nbsp;   
 
-<p>
-</p>
 
 ## CNCF Inception Logos
 
