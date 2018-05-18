@@ -1,0 +1,164 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/slider.css">
+<link rel="stylesheet" href="https://use.typekit.net/ken0gut.css">
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+<script src="ism-2.2.min.js"></script>
+
+<style>
+@font-face {
+font-family: 'chronicle';
+src: url('fonts/ChronicleDisp-Roman.eot'); /* IE9 Compat Modes */
+src: url('fonts/ChronicleDisp-Roman.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('fonts/ChronicleDisp-Roman.woff') format('woff'), /* Modern Browsers */
+url('fonts/ChronicleDisp-Roman.ttf') format('truetype'), /* Safari, Android, iOS */
+url('fonts/ChronicleDisp-Roman.svg#svgFontName') format('svg'); /* Legacy iOS */}
+@font-face {
+font-family: 'chroniclelight';
+src: url('fonts/ChronicleDisp-Light.eot'); /* IE9 Compat Modes */
+src: url('fonts/ChronicleDisp-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('fonts/ChronicleDisp-Light.woff') format('woff'), /* Modern Browsers */
+url('fonts/ChronicleDisp-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+url('fonts/ChronicleDisp-Light.svg#svgFontName') format('svg'); /* Legacy iOS */}
+</style>
+
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+
+<script src="https://use.typekit.net/rvo3vky.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<script src="https://use.typekit.net/ivp2ktv.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <title>
+Ennis Milne
+   </title>
+
+
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
+
+<script>
+$("#slideshow > div:gt(0)").hide();
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(2000)
+    .next()
+    .fadeIn(2000)
+    .end()
+    .appendTo('#slideshow');
+}, 5000);
+  function sticky_relocate() {
+      var window_top = $(window).scrollTop();
+      var div_top = $('#sticky-anchor').offset().top;
+      if (window_top > div_top) {
+          $('#sticky').addClass('stick');
+          $('#sticky-anchor').height($('#sticky').outerHeight());
+      } else {
+          $('#sticky').removeClass('stick');
+          $('#sticky-anchor').height(0);
+      }
+  }
+  $(function() {
+      $(window).scroll(sticky_relocate);
+      sticky_relocate();
+  });
+  var dir = 1;
+  var MIN_TOP = 200;
+  var MAX_TOP = 350;
+  function autoscroll() {
+      var window_top = $(window).scrollTop() + dir;
+      if (window_top >= MAX_TOP) {
+          window_top = MAX_TOP;
+          dir = -1;
+      } else if (window_top <= MIN_TOP) {
+          window_top = MIN_TOP;
+          dir = 1;
+      }
+      $(window).scrollTop(window_top);
+      window.setTimeout(autoscroll, 100);
+  }
+</script>
+</head>
+<body>
+
+
+<div class="topnav">
+
+
+<a href="index.html" style="width:25%">
+
+<div class="logotext">
+Ennis Milne
+</div>
+<div class="logotext2">
+Barristers & Solicitors
+</div>
+
+</a>
+
+</div>
+
+<div id="sticky-anchor"></div>
+<div id="sticky">
+<a style="letter-spacing:0.13em;" href="whoweare.html" style="margin-right:4%;">who we are</a>
+<a style="letter-spacing:0.13em;" href="whatwedo.html" style="margin-right:2%;">what we do</a>
+<a style="letter-spacing:0.13em;" href="whychoose.html" style="margin-right:2%;">why choose us?</a>
+<a style="letter-spacing:0.13em;" href="contact.html" style="margin-right:2%;">contact us</a>
+</div>
+</div>
+
+
+<div class="banner2">
+  who we are.
+</div>
+
+<div class="container" style="width:80%;padding:5%;margin-left:5%;margin-bottom:5%;">
+
+  <div class="row1" style="width:90%;padding:2%;padding-top:1%;">
+  <div class="image" style="width:40%;padding-left:10%;">
+    <img src="ennis1.jpg" style="width:100%">
+    </div>
+
+    <div class="pagecol" style="width:40%;padding-left:0%;padding-top:8%">
+    <span style="font-weight:400">Elizabeth Ennis</span> retired in 2015 after 25 years in practice in the areas of family law, child protection and real estate.
+    <br><br>
+    She appeared regularly in the Toronto Courts.
+    </div>
+  </div>
+
+
+<div class="row1" style="width:90%;padding:2%;padding-top:5%;margin-bottom:5%;">
+<div class="image" style="width:40%;padding-left:10%;">
+  <img src="warren.jpg" style="width:100%">
+  </div>
+
+  <div class="pagecol" style="width:40%;padding-left:5%;padding-top:5%">
+  <span style="font-weight:400">Warren Milne</span> has practiced in all areas of family law for over 20 years.  He appears regularly in the Toronto courts. He has long experience in custody and access issues, child and spousal support and division of property.
+<br><br>
+  At times, cases proceed by way of litigation in the courts.  When possible, cases may proceed by way of negotiation and separation agreement.
+
+  </div>
+</div>
+</div>
+
+
+
+<div class="footer1">
+COPYRIGHT © 2018 ENNIS MILNE
+</div>
+</div>
+
+</div>
+
+</body>
+
+</html>
