@@ -1,6 +1,4 @@
 @import url("https://use.typekit.net/ken0gut.css");
-@import url("https://use.typekit.net/ken0gut.css");
-@import url("https://use.typekit.net/ken0gut.css");
 
 
 .row1 {
@@ -43,7 +41,7 @@ p, a {
   font-size:50pt;
   letter-spacing:0.03em;
   color:#000000;
-  font-family:'adobe-caslon-pro', serif !important;
+  font-family:'adobe-caslon-pro', sans-serif !important;
   font-weight:100;
   letter-spacing:0.02em;
   line-height: 0.5em;
