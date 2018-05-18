@@ -1,7 +1,14 @@
+@import url("https://use.typekit.net/ken0gut.css");
+@import url("https://use.typekit.net/ken0gut.css");
+@import url("https://use.typekit.net/ken0gut.css");
+
+
+.row1 {
+
+  float:left;
+}
 
 .video {
-
-
   display:block;
 }
 
@@ -12,9 +19,50 @@
 p, a {
   font-size:9pt;
   margin:0px 0 0 0;
-  color:#3d3d3d;
+  color:#000000;
   font-family:'lato', sans-serif !important;
   font-weight:400;
+  letter-spacing:0.03em;
+}
+
+.button {
+
+  padding:2%;
+  width:35%;
+  border:1px solid black;
+  text-align:center;
+  line-height:2em;
+  margin-top:8%;
+  margin-left:30%;
+  margin-right:30%;
+  margin-bottom:10%;
+  font-weight:400;
+}
+
+.logotext {
+  font-size:50pt;
+  letter-spacing:0.03em;
+  color:#000000;
+  font-family:'adobe-caslon-pro', serif !important;
+  font-weight:100;
+  letter-spacing:0.02em;
+  line-height: 0.5em;
+  padding-top:5%;
+  margin-bottom:0px !important;
+  padding-bottom:0px !important;
+}
+
+.logotext2 {
+  font-size:10pt;
+  letter-spacing:0.1em;
+  color:#606060;
+  text-transform:uppercase;
+  font-family:'lato', serif !important;
+  font-weight:300;
+  padding-bottom:1.5%;
+  letter-spacing:0.15em;
+  line-height: 3em;
+
 }
 
 
@@ -28,6 +76,10 @@ opacity:0.7;
 margin-top:0.7%;
 margin-bottom:0.7%;
 
+}
+
+.leftimage {
+  width:30%;
 }
 
 .inthemedia {
@@ -122,18 +174,19 @@ margin:0 auto;
     background-color: #ffffff;
     color:#999999;
     font-size: 1em;
-    letter-spacing:0.13em;
+    letter-spacing:2.5em;
     line-height:1.5em;
     margin:0 auto;
     padding:1.3%;
-    border-bottom: 0.5px solid #cecece;
+    padding-left:0.5%;
+    border-bottom: 0.5px solid #eeeeee;
     text-align:center;
     font-size:12px;
     text-transform: uppercase;
-    color:#101010;
+    color:#eeeeee;
     width:100%;
     font-family:'lato', serif !important;
-    font-weight:500 !important;
+    font-weight:700 !important;
 }
 
 #sticky.stick {
@@ -145,10 +198,11 @@ margin:0 auto;
 }
 
 .containercol{
-  width:95%;
+  width:100%;
   margin:0 auto;
   padding-bottom:0%;
-  padding-left:2% !important;
+  padding-left:1%;
+
 }
 
 
@@ -166,12 +220,12 @@ width:100%;
 font-family:'lato', sans-serif;
 letter-spacing:0.08em;
 margin:0 auto;
-border-bottom: 0.2px solid #cec8a0;
-border-top: 9px solid #000000;
+border-bottom: 0.2px solid #aaaaaa;
+border-top: 6px solid #000000;
 text-align:center;
 padding:0px;
 padding-top:20px;
-padding-bottom:10px;
+
 
 }
 .bottomnav {
@@ -194,7 +248,7 @@ background-color:#ffffff;
 .image {
 margin-right:0px;
 width:45%;
-float:right;
+float:left;
 padding-bottom:0%;
 display:block;
 }
@@ -205,14 +259,14 @@ padding-bottom:0%;
 display:block;
 }
 .pagecol {
-  font-size:12px;
+  font-size:15px;
   opacity:0.8;
   font-family:'lato', sans-serif !important;
   font-weight:300;
-  letter-spacing:0.09em;
+  letter-spacing:0.07em;
   line-height:1.65em;
   width:47%;
-  float:left;
+  float:right;
   padding-left:3%;
   padding-right:3%;
 padding-top:3%;
@@ -233,12 +287,13 @@ padding-top:3%;
 
 .banner2 {
   width:100%;
-  font-size:21px;
+  font-size:26px;
   text-align:center;
   letter-spacing:0.1em;
   color:white;
+  font-weight:400;
   font-family:'lato', sans-serif !important;
-  background-color:#000000;
+  background-color:#cccccc;
   padding-top:1%;
   padding-bottom:1%;
 }
@@ -278,24 +333,39 @@ text-transform:uppercase;
 }
 
 h2 {
-font-size:16px;
+font-size:24px;
+font-weight:400;
 font-family:'lato', sans-serif;
 padding-bottom:1%;
 text-align:center;
-letter-spacing: 0.14em;
+letter-spacing: 0.08em;
 margin-top:0px;
 color:black;
 }
 
 .homecol{
-  width:26%;
+  width:33%;
   float:left;
+  padding:0px;
+  background-color:
   font-family:'lato';
   font-weight:200;
   letter-spacing:0.08em;
   font-size:12px;
-  padding:3%;
   margin-bottom:1%;
+  line-height:1.5em;
+  color:#303030;
+
+}
+.homecoltext{
+  width:80%;
+  float:left;
+  padding-left:10%;
+    padding-top:4%;
+  font-family:'lato';
+  font-weight:300;
+  letter-spacing:0.08em;
+  font-size:13px !important;
   line-height:1.5em;
   color:#303030;
 
@@ -304,15 +374,17 @@ color:black;
 
 .vertline {
   width:1px;
-  padding:0.5%;
-  border-left:1px #e5d2c3 solid;
-  height:300px;
-  margin-top:3%;
+  padding:0%;
+  border-left:1px #bbbbbb solid;
+  height:250px;
+  margin-top:2%;
+  margin-bottom:2%;
   float:left;
   opacity:0.7;
 
 
 }
+
 
 
 
@@ -459,7 +531,7 @@ width:100% !important;
   letter-spacing:0.09em;
   line-height:20px;
   width:92% !important;
-  float:left;
+  float:right;
   padding:4%;
 }
 
@@ -480,6 +552,10 @@ width:35%;
 
 @media only screen and (max-width:780px){
 
+
+.logotext {
+  font-size:35pt;
+}
 
   #slideshow {
     margin: 0px auto;
@@ -555,9 +631,9 @@ width:35%;
   #sticky {
       padding:3em;
       background-color: #ffffff;
-      color:#999999;
+      color:#000000;
       font-size: 1em;
-      letter-spacing:0.13em;
+      letter-spacing:2em;
       line-height:2em;
       margin:0 auto;
       padding:1.9%;
