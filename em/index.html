@@ -8,8 +8,8 @@
 <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
 
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="css/slider.css">
 
+<link href="https://fonts.googleapis.com/css?family=Lusitana|PT+Serif" rel="stylesheet">
 <link rel="stylesheet" href="https://use.typekit.net/ken0gut.css">
 <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
@@ -45,49 +45,6 @@ Ennis Milne
    </title>
 
 
-  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
-
-<script>
-$("#slideshow > div:gt(0)").hide();
-setInterval(function() {
-  $('#slideshow > div:first')
-    .fadeOut(2000)
-    .next()
-    .fadeIn(2000)
-    .end()
-    .appendTo('#slideshow');
-}, 5000);
-  function sticky_relocate() {
-      var window_top = $(window).scrollTop();
-      var div_top = $('#sticky-anchor').offset().top;
-      if (window_top > div_top) {
-          $('#sticky').addClass('stick');
-          $('#sticky-anchor').height($('#sticky').outerHeight());
-      } else {
-          $('#sticky').removeClass('stick');
-          $('#sticky-anchor').height(0);
-      }
-  }
-  $(function() {
-      $(window).scroll(sticky_relocate);
-      sticky_relocate();
-  });
-  var dir = 1;
-  var MIN_TOP = 200;
-  var MAX_TOP = 350;
-  function autoscroll() {
-      var window_top = $(window).scrollTop() + dir;
-      if (window_top >= MAX_TOP) {
-          window_top = MAX_TOP;
-          dir = -1;
-      } else if (window_top <= MIN_TOP) {
-          window_top = MIN_TOP;
-          dir = 1;
-      }
-      $(window).scrollTop(window_top);
-      window.setTimeout(autoscroll, 100);
-  }
-</script>
 </head>
 <body>
 
@@ -118,55 +75,39 @@ Barristers & Solicitors
 </div>
 
 
+<div class="banner2">
+  contact
+</div>
+
+<div class="container" style="width:80%;padding:5%;margin-left:%;margin-bottom:10%;">
+
+  <div class="row1" style="width:80%;padding:2%;padding-top:0%;padding-left:15%">
 
 
-<div class="container">
+    <div class="pagecol" style="width:90%;padding-left:15%;text-align:center;padding-top:0%;margin-bottom:10%">
 
-  <img src="banner.jpg" style="width:100%">
+<span style="font-weight:400">Ennis Milne</span><br>
+Barristers & Solicitors<br>
+246 Inglewood Drive<br>
+Toronto, ON<br>
+M4T 1J1<br>
+Tel: 416-515-9267<br>
+Fax: 416-513-0348<br>
+<br><br>
+<span style="font-weight:400">direct line:</span><br>
+Warren Milne: 416-884-0270
+<br><br>
+<span style="font-weight:400">e-mail:</span><br>warrenmilne2727@gmail.com
+
+
+    </div>
   </div>
 
 
 
-
-<div class="containercol" style="float:left;padding-top:1%">
-
-
-  <div class="homecol" style="float:left">
-    <div class="homecoltext">
-    <h2>who we are.</h2>
-    Ennis Milne is a small mid-town law firm, specializing in family law.  We work in all areas of family law, divorce, custody and access, support, property, marriage contracts and separation agreements and appear regularly in the Ontario Superior Courts in Toronto.
-    <a href="whoweare.html"><div class="button">
-      READ MORE
-    </div></a>
-</div>
-  </div>
-
-<div class="vertline"></div>
-
-<div class="homecol">
-    <div class="homecoltext">
-  <h2>why choose us?</h2>
-With over 20 years experience in family law, we know the courts and the law, we know the court offices and the procedures and we know what works and what doesn’t work. You are always very important to us.  We listen to you and we work with you.  At every step, we give you our opinion on how best to proceed and let you decide.
-<a href="whychoose.html"><div class="button">
-  READ MORE
-</div></a>
 </div>
 
-</div>
-<div class="vertline"></div>
-<div class="homecol">
-    <div class="homecoltext">
-  <h2>what we do.</h2>
 
-Warren Milne has practiced in all areas of family law for over 20 years.  He appears regularly in the Toronto courts.  He has long experience in custody and access issues, child and spousal support and division of property.
-At times, cases proceed by way of litigation in the courts.  When possible, cases may proceed by way of negotiation and separation agreement.
-<a href="whatwedo.html"><div class="button">
-  READ MORE
-</div></a>
-</div>
-</div>
-
-</div>
 
 <div class="footer1">
 COPYRIGHT © 2018 ENNIS MILNE
