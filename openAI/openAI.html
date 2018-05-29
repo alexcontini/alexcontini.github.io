@@ -48,18 +48,16 @@
 <div class="banner2">
   <div class="banner2text">
 
-    "Research teams can now take advantage of the frameworks we’ve built on top of Kubernetes, which make it easy to launch experiments, scale them by 10x or 50x, and take little effort to manage."
-<br style="height:5px"><span style="font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-top:5% !important;">— Christopher Berner, Head of Infrastructure for OpenAI</span><br><br><br>
 <div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v4N3Krzb8Eg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
-<span style="font-size:20px;line-height:0.5em !important;width:60%;">Check out "Building the Infrastructure that Powers the Future of AI" presented by  Vicki Cheung, Member of Technical Staff & Jonas Schneider, Member of Technical Staff at OpenAI from KubeCon/CloudNativeCon Europe 2017.</span>
+<span style="font-size:21px;line-height:0.5em !important;width:60%;">Check out "Building the Infrastructure that Powers the Future of AI" presented by  Vicki Cheung, Member of Technical Staff & Jonas Schneider, Member of Technical Staff at OpenAI from KubeCon/CloudNativeCon Europe 2017.</span>
 </div>
   </div>
 </div>
 <section class="section2">
 <div class="fullcol">
   <h2>From experiments in robotics to old-school video game play research, OpenAI’s work in artificial intelligence technology is meant to be shared.</h2>
-  With a mission to ensure powerful AI systems are safe, they care deeply about open source—both benefiting from it and contributing safety technology into it. "The research that we do, we want to spread it as widely as possible so everyone can benefit," says OpenAI’s Head of Infrastructure Christopher Berner. The lab’s philosophy—as well as its particular needs—lent itself to embracing an open-source, cloud-native strategy for its deep learning infrastructure.<br><br>
+  With a mission to ensure powerful AI systems are safe, OpenAI cares deeply about open source—both benefiting from it and contributing safety technology into it. "The research that we do, we want to spread it as widely as possible so everyone can benefit," says OpenAI’s Head of Infrastructure Christopher Berner. The lab’s philosophy—as well as its particular needs—lent itself to embracing an open source, cloud native strategy for its deep learning infrastructure.<br><br>
   OpenAI started running Kubernetes on top of AWS in 2016, and a year later, migrated the Kubernetes clusters to Azure. "We probably use Kubernetes differently from a lot of people," says Berner. "We use it for batch scheduling and as a workload manager for the cluster. It’s a way of coordinating a large number of containers that are all connected together. We rely on our <a href="https://github.com/openai/kubernetes-ec2-autoscaler">autoscaler</a> to dynamically scale up and down our cluster. This lets us significantly reduce costs for idle nodes, while still providing low latency and rapid iteration." <br><br>
   In the past year, Berner has overseen the launch of several Kubernetes clusters in OpenAI’s own data centers. "We run them in a hybrid model where the control planes—the Kubernetes API servers, <a href="https://github.com/coreos/etcd">etcd</a> and everything—are all in Azure, and then all of the Kubernetes nodes are in our own data center," says Berner. "The cloud is really convenient for managing etcd and all of the masters, and having backups and spinning up new nodes if anything breaks. This model allows us to take advantage of lower costs and have the availability of more specialized hardware in our own data center."
 
@@ -68,14 +66,14 @@
 </section>
 <div class="banner3" style="background-image: url('CaseStudy_openAI_banner3.jpg')">
   <div class="banner3text">
-  "Because Kubernetes provides a consistent API, we can move our research experiments very easily between clusters,"
+    OpenAI’s experiments take advantage of Kubernetes’ benefits, including portability. "Because Kubernetes provides a consistent API, we can move our research experiments very easily between clusters..."
 
   </div>
 </div>
 <section class="section3">
 <div class="fullcol">
   Different teams at OpenAI currently run a couple dozen projects. While the largest-scale workloads manage bare cloud VMs directly, most of OpenAI’s experiments take advantage of Kubernetes’ benefits, including portability. "Because Kubernetes provides a consistent API, we can move our research experiments very easily between clusters," says Berner. The on-prem clusters are generally "used for workloads where you need lots of GPUs, something like training an ImageNet model. Anything that’s CPU heavy, that’s run in the cloud. But we also have a number of teams that run their experiments both in Azure and in our own data centers, just depending on which cluster has free capacity, and that’s hugely valuable."<br><br>
-  Berner has made the Kubernetes clusters available to all OpenAI teams to use if it’s a good fit. "I’ve worked a lot with our games team, which at the moment is doing research on classic console games," he says. "They had been running a bunch of their experiments on our dev servers, and they had been trying out Google cloud, managing their own VMs. We got them to try out our first on prem Kubernetes cluster, and that was really successful. They’ve now moved over completely to it, and it has allowed them to scale up their experiments by 10x, and do that without needing to invest significant engineering time to figure out how to manage more machines. A lot of people are now following the same path."
+  Berner has made the Kubernetes clusters available to all OpenAI teams to use if it’s a good fit. "I’ve worked a lot with our games team, which at the moment is doing research on classic console games," he says. "They had been running a bunch of their experiments on our dev servers, and they had been trying out Google cloud, managing their own VMs. We got them to try out our first on-prem Kubernetes cluster, and that was really successful. They’ve now moved over completely to it, and it has allowed them to scale up their experiments by 10x, and do that without needing to invest significant engineering time to figure out how to manage more machines. A lot of people are now following the same path."
 
 </div>
 </section>
@@ -96,7 +94,7 @@
 
 <div class="banner5">
   <div class="banner5text">
-    "I think we’ll probably hit the 5,000-machine number that Kubernetes has been tested at before too long," says Berner, adding, "We’re definitely hiring if you’re excited about working on these things!"
+    "Research teams can now take advantage of the frameworks we’ve built on top of Kubernetes, which make it easy to launch experiments, scale them by 10x or 50x, and take little effort to manage." — CHRISTOPHER BERNER, HEAD OF INFRASTRUCTURE FOR OPENAI
   </div>
 </div>
 
