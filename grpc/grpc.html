@@ -1,117 +1,236 @@
-<!DOCTYPE html>
-<html>
-  <head>
+ contentDiv {
+    background-color: orange;
+    height: 200px;
+    position: relative;
+    width: 200px;
+}
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="style.css">
+@keyframes bouncing {
+    0% {bottom: 0;}
+    50% {bottom: 20px;}
+    100% {bottom: 0;}
+}
 
-<title>gRPC website</title>
+.arrow {
+    animation: bouncing 1s infinite ease-in-out;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
 
-</head>
-<div id="landing-content">
-    <div class="row" >
-        <div class="topbanner">
-            <div class="topnav">
-                github    Docs    Blog    Community
-            </div>
-            <div class="bannerlogo"><img src="grpc-logo.png" style="width:30%"></div>
-            <div class="topbannertext">A high performance, open-source
-universal RPC framework</div>
-           <div class="button">
-                <a href="{{ site.baseurl }}/docs/guides/concepts.html#service-definition"><button>GET STARTED</button></a>
-            </div>
-           <a href="#arrow"><div class="contentDiv">
-    <img class="arrow" src="arrow.svg" /></a>
-</div>
-        
-        </div>
-    </div>
 
+
+body {
     
+    margin:0 auto;
+}
 
-    <div class="section2">
-        
-        <a name="arrow"><h2>Why gRPC?</h2></a>
-        gRPC is a modern open source high performance RPC framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services.
+.topbanner {
+    width:100%;
+    color:white;
+    padding-top:2%;
+    padding-bottom:5%;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    font-size:18pt;
+    background-image:url('graphic-04.svg');
+    background-repeat: no-repeat;
+    position:relative;
+   background-size: 100%;
+    
+}
 
+.topnav {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size:12pt;
+    letter-spacing:0.05em;
+    word-spacing:2em;
+    color:white;
+    text-align:center;
+    text-transform:uppercase;
+    
+}
 
-    </div>
+.topbannertext{
+   width:30%;
+   margin-left:34%;
+   padding:1%;
+}
 
-    <div class="cols" >
-        
-        <div class="col1">
-            
-        <div class="colpart1">  
-             <img class="col1image" src="grpc-icon-1.png" style="padding:2%;display:inline-block">
-           <h3>Simple service definition</h3>
-Define your service using Protocol Buffers, a powerful binary serialization toolset and language
-</div>
-            
-         <div class="colpart2">  
- <img class="col1image" src="grpc-icon-3.png" style="padding:2%;display:inline-block">
-            <h3>Start quickly and scale</h3>Install runtime and dev environments with a single line and also scale to millions of RPCs per second with the framework
-</div>
+.bannerlogo {
+    
+    padding-top:5%;
+    width:50%:
+}
 
-       </div>
-        
-        <div class="col2">
-            
-            <div class="colpart1">
-             
-             <img class="col1image" src="grpc-icon-2.png" style="padding:2%;display:inline-block">
-            <h3>Works across languages and platforms</h3>
-Automatically generate idiomatic client and server stubs for your service in a variety of languages and platforms</div>
-
-                
-<div class="colpart2"> 
- <img class="col1image" src="grpc-icon-4.png" style="padding:2%;display:inline-block">
-           <h3>Bi-directional streaming</h3> and integrated auth
-Bi-directional streaming and fully integrated pluggable authentication with http/2 based transport
-
-    </div>
-
-</div></div>
-           
-        
-<div class="section3">
-    <h2>Used By</h2>
-    <div class="companybox">
-    <img src="square.png">
-</div>
-     <div class="companybox">
-    <img src="netflix.png">
-</div>
-      <div class="companybox">
-    <img src="coreos.png">
-</div>
-       <div class="companybox">
-    <img src="cockroach-labs.png">
-</div>
-        <div class="companybox">
-    <img src="wisconsin.png">
-</div>
-         <div class="companybox">
-    <img src="carbon.png">
-</div>
-          <div class="companybox">
-    <img src="cisco.png">
-</div>
-          <div class="companybox" style="margin-right:0% !important">
-    <img src="juniper.png">
-</div>
-
-</div>
+.bannerlogo img{
+    
+    
+    width:50%:
+}
 
 
-<div class="section4">
-    <h2 style="color:white">Want to Learn More?</h2>
-Get started by learning concepts and doing our hello world quickstart in language of your choice. <br>
-    <div class="button" style="margin-top:3%">
-                <a href="{{ site.baseurl }}/docs/guides/concepts.html#service-definition"><button>GET STARTED</button></a>
-            </div>
-</div>
+button {
+    font-family: 'Open Sans', sans-serif;
+    background-color:white;
+    color:#333333;
+    border:0px solid;
+    padding-left:3%;
+    padding-right:3%;
+    font-weight:bold;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+    margin:2%;
+    font-size:13pt;
+}
 
+.section2 {
+    padding-top:3%;
+    font-family: 'Open Sans', sans-serif;
+    width:60%;
+    font-size:15pt;
+    color:#505050;
+    line-height:1.5em;
+    padding-left:20%;
+    text-align:center;
+    font-weight:100;
+}
+
+
+.section3 {
+    font-family: 'Open Sans', sans-serif;
+    width:80%;
+    padding-left:10%;
+    font-weight:100;
+    float:left;
+    margin-bottom:5%;
+    background-color:white;
+    text-align:center;
+    position:relative;
+}
+
+.cols {
+    margin-top:5%;
+     margin-bottom:3%;
+    font-family: 'Open Sans', sans-serif;
+    width:100%;
+    font-weight:100;
+    background-color:#EBF2F2;
+    padding-left:10%;
+    padding-top:2%;
+    float:left;
+    
+}
+
+.col1 {
+    float:left;
+    width:40%;
+    padding-top:2%;
+    margin-right:2%;
+    padding-bottom:3%;
+}
+
+.col2 {
+    float:left;
+    width:40%;
+     padding-top:2%;
+        padding-bottom:2%;
+}
+
+.col1image{
+    float:left;
+    display:block;
+    width:25%;
+    margin-right:2%;
+    margin-bottom:8%;
+    padding:3%;
+    display:block;
+}
+
+.col2image{
+    float:left;
+    width:25%;
+    margin-right:2%;
+    padding:2%;
+}
+
+.colpart1 {
+    
+    float:left;
+    padding-bottom:2%;
+}
+
+.colpart2 {
+    
+    float:left;
+    padding-top:2%;
+}
+
+
+.companybox {
+   
+}
+
+.companybox img{
+    position:relative;
+    margin:1.15%;
+    padding:1%;
+    width:8%;
+    opacity:0.3;
+    text-align:center;
+    float:left;
+    display:inline-block;
+    border: 1px solid grey;
+    float:left;
+    background-color:white;
+}
+
+
+
+.section4 {
+    font-family: 'Open Sans', sans-serif;
+    width:90%;
+    background-size:100%;
+    float:left;
+    font-size:14pt;
+    text-align:center;
+    background-image:url('graphic-04.svg');
+    background-repeat: no-repeat;
+    position:relative;
+   background-size: 100%;
+    padding-bottom:7%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:3%;
+    color:white;
+    margin-top:2%;
+}
+
+
+h2 {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size:34pt;
+    color:#0CC1C8;
+    font-weight:300;
+    
+}
+
+
+h3 {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size:18pt;
+    color:#33838b;
+    font-weight:300;
+    
+}
 
 
