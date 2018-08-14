@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style_case_studies.css">
+
+<title>AdForm Case Study</title>
+
+</head>
+
+<body>
+
+<div class="banner1 desktop" style="background-image: url('CaseStudy_adform_banner1.jpg')">
+  <h1> CASE STUDY:<img src="adform_logo.png" style="width:15%;margin-bottom:0%" class="header_logo"><br> <div class="subhead">Adform: Providing Monitoring as a Service with Prometheus
+</div></h1>
+
+</div>
+
+<div class="details">
+    Company &nbsp;<b>AdForm</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location &nbsp;<b>Copenhagen, Denmark</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Industry &nbsp;<b>Adtech</b>
+</div>
+
+<hr>
+<section class="section1">
+<div class="cols">
+  <div class="col1">
+    <h2>Challenge</h2>
+    Adform’s mission is to provide a secure and transparent full stack of advertising technology to enable digital ads across devices. The company has a large infrastructure: OpenStack-based private clouds running on 1,100 physical servers in 7 data centers around the world, 3 of which were opened in the past year. With the company’s growth, the infrastructure team wanted to enrich its infrastructure and application metrics. "We wanted high availability, centralized targets configuration, and service discovery," says IT System Engineer Edgaras Apšega. 
+
+
+<br>
+
+ <h2>Solution</h2>
+    The team chose Prometheus "because of its great flexibility and loads of integrations," says Apšega. "We use it with Consul, OpenStack, and Kubernetes service discovery, and it allows infrastructure and application monitoring to scale together with applications." The DevOps team is now providing Monitoring as a Service at Adform based on Prometheus. 
+
+ 
+   
+</div>
+
+<div class="col2" style="padding-top:1% !important;">
+
+<h2>Impact</h2>
+ Prometheus plays an important role in Adform’s infrastructure. "It provides high availability for metrics and alerting," says Apšega. "We monitor everything starting from hardware to applications. Having all the metrics in Grafana dashboards provides great insight on your systems." Now that metrics are automatically scraped from various places like Openstack, Kubernetes, and Consul, "developers don’t need to think about the monitoring part whenever they’re launching their applications," Apšega adds. "Even dashboards are automatically predefined, so we believe that for new applications, developers save about one day that would otherwise be spent on monitoring infrastructure setup."
+ 
+
+</div>
+
+</div>
+</section>
+<div class="banner2">
+  <div class="banner2text">
+"Prometheus enables us to have rich dashboards on our infrastructure and services. We have dashboards all around the office—every team has a few monitors hanging just to display some metrics—and online. It becomes easy to troubleshoot when you can see the history of all critical metrics." <span style="font-size:14px;letter-spacing:0.12em;padding-top:20px;text-transform:uppercase;line-height:14px"><br><br>— Edgaras Apšega, IT System Engineer, Adform</span>
+
+  </div>
+</div>
+
+<section class="section2">
+<div class="fullcol">
+<h2>Founded in 2002 with the mission of providing a secure and transparent full stack of advertising technology to enable digital ads across devices, Adform has gradually built a large infrastructure:</h2> OpenStack-based private clouds running on 1,100 physical servers in the company’s own seven data centers around the world, three of which were opened in the past year. Recently, that growth has led the company onto a cloud native path, as the team running the infrastructure recognized a need for greater flexibility and observability.<br><br>
+Prometheus was Adform’s first foray into cloud native technology. The company was already using Graphite and Zabbix for monitoring and alerting, but by the summer of 2017, "we were looking into solutions of how to enrich our infrastructure and application metrics," says IT System Engineer Edgaras Apšega. "Ceph was one of the cases, and we found that there was a Ceph exporter written by Digital Ocean for Prometheus. At first, we launched Prometheus monitoring just for Ceph metrics, but quickly it became the de facto monitoring solution for the whole infrastructure and all applications because of its great flexibility and loads of integrations."<br><br>
+
+
+</div>
+</section>
+<div class="banner3" style="background-image: url('CaseStudy_adform_banner3.jpg')">
+  <div class="banner3text">
+    "At first, we launched Prometheus monitoring just for Ceph metrics, but quickly it became the de facto monitoring solution for the whole infrastructure and all applications because of its great flexibility and loads of integrations." <span style="font-size:14px;letter-spacing:0.12em;padding-top:20px;text-transform:uppercase;line-height:14px"><br><br>— Edgaras Apšega, IT System Engineer, Adform</span></span>
+  </div>
+</div>
+<section class="section3">
+<div class="fullcol">
+ 
+
+The team particularly liked that Prometheus was easy to implement and had dimensional data metrics on which alerts could be based. Plus, says Apšega, "another selling point is the Infrastructure as Code approach: configuration files that can be simply modified, like writing code."<br><br>
+Across the board, "Prometheus solved several problems for us, like high availability, centralized targets configuration, and service discovery," says IT Systems Engineer Andrius Cibulskis. "Most of all, Prometheus seemed to be less Disk I/O intensive than any other solution, so it helped with cost savings."<br><br>
+The team’s successful implementation of Prometheus gave it added confidence when it decided later that year to use Kubernetes for container orchestration. "We learned about cloud native technology with Prometheus, and we saw there’s a Kubernetes movement," says Cibulskis. "We already knew that the Cloud Native Computing Foundation incubates both projects."<br><br>
+Today, Adform has 10 Prometheus instances with 2M+ timeseries per instance, and 5000+ scraping targets through all tiers, and all around the office, there are monitors on the walls displaying metrics. "Prometheus allows infrastructure and application monitoring to scale together with applications," says Apšega. "We monitor everything starting from hardware to applications. Having all the metrics in Grafana dashboards provides great insight on your systems. It becomes easy to troubleshoot when you can see history of all critical metrics." 
+
+
+
+</div>
+</section>
+<div class="banner4" style="background-image: url('CaseStudy_adform_banner4.jpg')">
+  <div class="banner4text">
+"Prometheus solved several problems for us, like high availability, centralized targets configuration, and service discovery. Most of all, Prometheus seemed to be less Disk I/O intensive than any other solution, so it helped with cost savings." <span style="font-size:14px;letter-spacing:0.12em;padding-top:20px;text-transform:uppercase;line-height:14px"><br><br>— Andrius Cibulskis, IT System Engineer, Adform</span>
+
+  </div>
+</div>
+
+<section class="section5">
+<div class="fullcol">
+
+For example, the team has used Prometheus and Node Exporter to find the root cause of network issues. "Prometheus scrapes targets every 5 seconds, and we can notice every abnormal spike," says Cibulskis. "Before, with other monitoring tools, we couldn’t. Node Exporter provided us a rich networking metrics that showed us where the problem was."<br><br>
+Adform’s DevOps teams are now providing Monitoring as a Service based on Prometheus, AlertManager, Grafana, and Unsee. With the help of Thanos, they’ve been able to solve the problems of high availability as well as long term storage. Now that metrics are automatically scraped from various places like OpenStack, Kubernetes, and Consul, "developers don’t need to think about the monitoring part whenever they’re launching their applications," Apšega says. "Even dashboards are automatically predefined, so we believe that for new applications, developers save about one day that would otherwise be spent on monitoring infrastructure setup."
+<br><br>Linas Daneliukas, who is part of the DevOps team responsible for MaaS, says the goal is to provide operating system-level metrics by default: "Once you create a VM in our OpenStack-based cloud, bootstrap a physical server via Foreman, or deploy a container in our Kubernetes cluster, we will automatically scrape the OS-level metrics and provide them in a pre-created dashboard in Grafana within an hour."<br><br>
+
+
+
+</div>
+
+<div class="banner5">
+  <div class="banner5text">
+ "In the near future, we’re looking into moving all of MaaS to Kubernetes and writing more tools that would allow for an easy self-service to add alert rules, scrape targets, exporters, etc. If all goes well, we’re all for open sourcing what we can and contributing where we can."
+ <span style="font-size:14px;letter-spacing:0.12em;padding-top:20px;text-transform:uppercase;line-height:14px"><br><br>— Linas Daneliukas, DevOps Team, Adform</span>
+
+  </div>
+</div>
+
+<div class="fullcol">
+
+While getting the metrics exposed was simple, gathering all of the scrape targets was not. "None of the available service discovery mechanisms covers all aspects that we have," Daneliukas explains. "So we wrote a tool called prometheus-interceptor that goes around a variety of services and APIs and collects targets from all around, then pings the node/wmi exporter ports to ensure that they are alive, and adds the targets via file_sd. Sounds quite simple, but handling several tiers across several regions and different mediums—it sure ain’t that easy."<br><br>
+Using Prometheus for Monitoring as a Service started as a proof of concept, but the teams using it loved it so much, that they’re continuing to develop it. "In the near future, we’re looking into moving all of MaaS to Kubernetes and writing more tools that would allow for an easy self-service to add alert rules, scrape targets, exporters, etc.," says Daneliukas.
+Given the benefits they’ve gained from the open source cloud native community, they’re eager to give back. "If all goes well," he adds, "we’re all for open sourcing what we can and contributing where we can." 
+
+
+
+
+</div>
+
+</section>
