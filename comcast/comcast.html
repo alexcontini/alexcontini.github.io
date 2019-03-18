@@ -1,0 +1,107 @@
+---
+title: Comcast Case Study
+layout: none
+class: gridPage
+cid: caseStudies
+---
+<!DOCTYPE html>
+<html>
+  <head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../style_case_studies.css">
+
+<title>Comcast Case Study</title>
+
+</head>
+
+<body>
+
+<div class="banner1" style="background-image: url('CaseStudy_comcast_banner1.jpg')">
+  <h1> CASE STUDY:<img src="comcast_logo.png" class="header_logo" style="width:25%;margin-bottom:-1%"><br> <div class="subhead" style="margin-top:1%">Comcast: Serving Video Applications to Millions of Customers with Cloud Native
+</div></h1>
+
+</div>
+
+<div class="details">
+    Company &nbsp;<b>Comcast</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location &nbsp;<b>Philadelphia, PA  </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Industry &nbsp;<b>Telecommunications</b>
+</div>
+
+<hr>
+
+<div class="cols">
+  <div class="col1" style="width:100%"">
+
+    <h2>Challenge</h2>
+    In 2016, Comcast began working on a new application for its <a href="https://www.xfinity.com/support/articles/x1-dvr-with-cloud-technology-available-features">X1 Cloud DVR</a> service. "The application had ten components, and all of them needed to have load balancers and to be deployed at different scales. We weren’t going to be able to get that deployed using a traditional virtual machine, ticketing type of system," says David Arbuckle, Director, Infrastructure Software Engineering.
+    <h2>Solution</h2>
+    Arbuckle turned to containerization to help solve the problems, and looked at several orchestration solutions before settling on <a href="https://kubernetes.io/">Kubernetes</a>. At the time, "Kubernetes had just hit 1.0," he says. "It was a calculated risk every step of the way. To mitigate that risk, we built a deployment tool, called Geronimo, that allowed the Cloud DVR developers to represent their application in just a couple of JSON files and for us to take that and translate it into infrastructure declarations."
+<h2>Impact</h2>
+    "Kubernetes helped our Dev teams manage the lifecycle of their applications, from lab to production," says Arbuckle. Before Kubernetes, they would deploy a new application stack once a quarter. Now, "in the case of Cloud DVR, they’re deployed at 20-plus environments on a weekly basis." Autoscaling has improved their ability to address services that are over capacity or oversubscribed. Before, "it was a week-long process in the environment. Now, we have the agility to very quickly rescale an application or free up capacity."
+</div>
+</div>
+
+<div class="banner2">
+  <div class="banner2text">
+  "Kubernetes has helped to get our development teams more interested and invested in production environments that they work in. It’s bridged the gap between our lab and production environments and enabled us to get stuff deployed faster."
+<br style="height:25px"><span style="font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-top:5% !important;"><br>— DAVID ARBUCKLE, DIRECTOR, INFRASTRUCTURE SOFTWARE ENGINEERING</span>
+  </div>
+</div>
+
+<div class="fullcol">
+  <h2>A global media and technology company, Comcast launched its X1 Cloud DVR service in 2014, allowing millions of customers to download or stream content onto mobile and IP-connected devices. Two years later, a new greenfield project for that service led the company on a cloud-native journey.
+ </h2>
+ The new application was not well suited to running in Comcast’s existing data center infrastructure. "The application had ten components, and all of them need to have load balancers and to be deployed at different scales. We weren’t going to be able to get that deployed using a traditional virtual machine, ticketing type of system," says David Arbuckle, Director, Infrastructure Software Engineering.
+<br><br>
+  Comcast has been expanding its embrace of DevOps for many years. The X1 platform was developed in a DevOps environment, and that success has led to more and more teams adopting DevOps principles. Within that structure, leaders have been focused on ensuring that there is still a lot of flexibility for teams to pick the tools and approaches that work for them.
+<br><br>
+  Arbuckle zeroed in on containerization to solve some of the unique challenges posed by the Cloud DVR application, and when he looked around for an orchestration solution, Kubernetes made a lot of sense. "Kubernetes stood out to me as having a really declarative model for applications," he says. "This notion of having a declaration of what to expect, and then Kubernetes reconciling it, is something that’s really appealing to us. We were excited about the service discovery components of this and the autoscaling as well."
+</div>
+
+<div class="banner3" style="background-image: url('CaseStudy_comcast_banner3.jpg')">
+  <div class="banner3text">
+    "Kubernetes stood out to me as having a really declarative model for applications. This notion of having a declaration of what to expect, and then Kubernetes reconciling it, is something that’s really appealing to us. We were excited about the service discovery components of this and the autoscaling&nbsp;as&nbsp;well."<br style="height:25px"><span style="font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-top:5% !important;"><br>— DAVID ARBUCKLE, DIRECTOR, INFRASTRUCTURE SOFTWARE ENGINEERING</span>
+
+  </div>
+</div>
+
+<div class="fullcol">
+
+  Kubernetes was only in version 1.0 at the time, and Arbuckle decided to take what he calls "a calculated risk every step of the way." A proof-of-concept project got one of Cloud DVR’s core applications—video playback—running on Kubernetes, and though it created some new challenges in addition to solving existing ones, the team decided to proceed. "To mitigate that risk, we built a deployment tool, called Geronimo, that allowed the Cloud DVR developers to represent their application in just a couple of JSON files and for us to take that and translate it into infrastructure declarations," says Arbuckle.
+<br><br>
+  Within a year, they had deployed Cloud DVR to 10 production environments in Kubernetes. Today, Comcast runs more than 20 Kubernetes clusters all over the United States. The impact has been substantial. "Kubernetes has empowered the Dev team to manage the lifecycle of their applications, from lab to production," says Arbuckle. "It’s removed a lot of the excuses we’ve had in the past, like ‘Well, the data center’s at capacity, we can’t get IP addresses, there’s this network ticketing process…’ All that’s gone."
+<br><br>
+  Previously Arbuckle’s team would deploy a new application stack once a quarter. Now, with the move to DevOps and Kubernetes, "in the case of Cloud DVR, they’re deployed in 20-plus environments on a weekly basis. With other applications, you see six- to eight-week deployment cycles, which for a big enterprise is fairly fast."
+</div>
+
+<div class="banner4" style="background-image: url('CaseStudy_comcast_banner4.jpg')" style="width:100%">
+  <div class="banner4text">
+    "Kubernetes has empowered the Dev team to manage the lifecycle of their applications, from lab to production. It’s removed a lot of the excuses we’ve had in the past, like ‘Well, the data center’s at capacity, we can’t get IP addresses, there’s this network ticketing process…’ All that’s gone."
+<br style="height:25px"><span style="font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-top:5% !important;"><br>- DAVID ARBUCKLE, DIRECTOR, INFRASTRUCTURE SOFTWARE ENGINEERING</span>
+  </div>
+</div>
+
+<div class="fullcol">
+  Autoscaling has improved their ability to address services that are over capacity or oversubscribed. Before, says Arbuckle, "it was a week-long process in the environment. Now, we have the agility to very quickly rescale an application or free up capacity."
+<br><br>
+  As the company has accelerated its shift to DevOps, Kubernetes has been a valuable tool "Kubernetes has helped to get our development teams more interested and invested in production environments that they work in," says Arbuckle. "It’s bridged the gap between our lab and production environments and enabled us to get stuff deployed faster."
+<br><br>
+  Comcast’s cloud native journey continues as the company adapts technology to meet its specific needs.  "We do some unusual things with Kubernetes; we have strange requirements," says Arbuckle. "On the networking side, we have a requirement for V6 and specifically dual stack clusters. But if you look at what the network SIGs are talking about, that’s two years out." At the same time, "One of the core principles that we have is we don’t fork; we don’t go in a direction different than what upstream is doing," says Arbuckle. "We build hacks and remediation and wait for the upstream community to find and fix our problem."
+</div>
+
+<div class="banner5" >
+  <div class="banner5text">
+"Individual Kubernetes clusters are going to spit out metrics that get pulled in by federated Prometheus and used to do things like monitor cluster health, which is important, as well as inform our internal SLAs."<br style="height:25px"><span style="font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-top:5% !important;"><br>- DAVID ARBUCKLE, DIRECTOR, INFRASTRUCTURE SOFTWARE ENGINEERING</span></div>
+</div>
+
+<div class="fullcol">
+
+  One thing the team is working on is a federated Prometheus deployment. "Individual Kubernetes clusters are going to spit out metrics that get pulled in by federated Prometheus and used to do things like monitor cluster health, which is important, as well as inform our internal SLAs," says Arbuckle. "Kubernetes doesn’t actually measure that or tell you what it is or whether it’s working, so we’re building a bunch of stuff around that."
+<br><br>
+  For now, Arbuckle’s main focus is to help Comcast capitalize on the decreased time to market. All of the products in the company’s IP-video stack now run in Kubernetes, and the strategy is to develop all greenfield projects in the Kubernetes platform, and to try to migrate over projects already in flight.
+</div>
+
+</body>
+</html>
