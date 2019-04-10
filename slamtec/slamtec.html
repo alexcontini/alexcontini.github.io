@@ -1,5 +1,5 @@
 ---
-title: ThredUp Case Study
+title: Slamtec Case Study
 layout: none
 class: gridPage
 cid: caseStudies
@@ -13,19 +13,19 @@ cid: caseStudies
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="../style_case_studies.css">
 
-<title>ThredUp Case Study</title>
+<title>Slamtec Case Study</title>
 
 </head>
 
 <body>
 
-<div class="banner1" style="background-image: url('CaseStudy_thredup_banner1.jpg')">
-  <h1> CASE STUDY:<img src="thredup_logo.png" class="header_logo" style="width:17%;margin-bottom:%"><br> </h1>
+<div class="banner1" style="background-image: url('CaseStudy_slamtec_banner1.jpg')">
+  <h1> CASE STUDY:<img src="slamtec_logo.png" class="header_logo" style="width:17%;margin-bottom:%"><br> </h1>
 
 </div>
 
 <div class="details">
-    Company &nbsp;<b>ThredUp</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location &nbsp;<b>San Francisco, California</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Industry &nbsp;<b>eCommerce</b>
+    Company &nbsp;<b>Slamtec</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location &nbsp;<b>Shanghai, China</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Industry &nbsp;<b>Robotics</b>
 </div>
 
 <hr>
@@ -33,75 +33,69 @@ cid: caseStudies
 <div class="cols">
   <div class="col1" style="width:100%"">
     <h2>Challenge</h2>
-    The largest online consignment store for women’s and children’s clothes, ThredUP launched in 2009 with a monolithic application running on Amazon Web Services. Though the company began breaking up the monolith into microservices a few years ago, the infrastructure  team was still dealing with handcrafted servers, which hampered productivity. "We’ve configured them just to get them out as fast as we could, but there was no standardization, and as we kept growing, that became a bigger and bigger chore to manage," says Cofounder/CTO Chris Homer. The infrastructure, they realized, needed to be modernized to enable the velocity the company needed. "It’s really important to a company like us who’s disrupting the retail industry to make sure that as we’re building software and getting it out in front of our users, we can do it on a fast cycle and learn a ton as we experiment," adds Homer. "We wanted to make sure that our engineers could embrace the DevOps mindset as they built software. It was really important to us that they could own the life cycle from end to end, from conception at design, through shipping it and running it in production, from marketing to ecommerce, the user experience and our internal distribution center operations."
-
+    Founded in 2013, Slamtec provides service robot autonomous localization and navigation solutions. The company’s strength lies in its R&D team’s ability to quickly introduce, and continually iterate on, its core products. In the past few years, the company, which had a legacy infrastructure based on Alibaba Cloud and VMware vSphere, began looking to build its own stable and reliable container cloud platform to host its Internet of Things applications. "Our needs for the cloud platform included high availability, scalability and security; multi-granularity monitoring alarm capability; friendliness to containers and microservices; and perfect CI/CD support," says Benniu Ji, Director of Cloud Computing Business Division.
 
     <h2>Solution</h2>
-    In early 2017, the company adopted Kubernetes for container orchestration, and in the course of a year, the entire infrastructure was moved to Kubernetes.
+    Ji’s team chose Kubernetes for orchestration. "CNCF brings quality assurance and a complete ecosystem for <a href="https://kubernetes.io/">Kubernetes</a>, which is very important for the wide application of Kubernetes," says Ji. Thus Slamtec decided to adopt other CNCF projects as well: <a href="https://prometheus.io/">Prometheus</a> monitoring, <a href="https://www.fluentd.org/">Fluentd</a> logging, <a href="https://goharbor.io/">Harbor</a> registry, and <a href="https://helm.sh/">Helm</a> package manager.
 <br>
 <h2>Impact</h2>
-    Before, "even considering that we already have all the infrastructure in the cloud, databases and services, and all these good things," says Infrastructure Engineer Oleksandr Snagovskyi, setting up a new service meant waiting 2-4 weeks just to get the environment. With Kubernetes, new application roll-out time has decreased from several days or weeks to minutes or hours. Now, says Infrastructure Engineer Oleksii Asiutin, "our developers can experiment with existing applications and create new services, and do it all blazingly fast." In fact, deployment time has decreased about 50% on average for key services. "Lead time" for all applications is under 20 minutes, enabling engineers to deploy multiple times a day. Plus, 3200+ ansible scripts have been deprecated in favor of helm charts. And impressively, hardware cost has decreased 56% while the number of services ThredUP runs has doubled.
+    With the new platform, Ji reports that Slamtec has experienced "18+ months of 100% stability!" For users, there is now zero service downtime and seamless upgrades. "Kubernetes with third-party service mesh integration (Istio, along with Jaeger and Envoy) significantly reduced the microservice configuration and maintenance efforts by 50%," he adds. With centralized metrics monitoring and log aggregation provided by Prometheus on Fluentd, teams are saving 50% of time spent on troubleshooting and debugging. Harbor replication has allowed production/staging/testing environments to cross public cloud and the private Kubernetes cluster to share the same container registry, resulting in 30% savings of CI/CD efforts. Plus, Ji says, "Helm has accelerated prototype development and environment setup with its rich sharing charts."
 </div>
 
 </div>
 </section>
 <div class="banner2">
   <div class="banner2text">
-    <iframe width="504" height="296" src="https://www.youtube.com/embed/t0csOf-uDrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
-    "Moving towards cloud native technologies like Kubernetes really unlocks our ability to experiment quickly and learn from customers along the way."
-<br style="height:25px"><span style="font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-top:5% !important;"><br>- CHRIS HOMER, COFOUNDER/CTO, THREDUP</span>
+    "Cloud native technology helps us ensure high availability of our business, while improving development and testing efficiency, shortening the research and development cycle and enabling rapid product delivery."
+<br style="height:25px"><span style="font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-top:5% !important;"><br>- BENNIU JI, DIRECTOR OF CLOUD COMPUTING BUSINESS DIVISION</span>
   </div>
 </div>
 <section class="section2">
 <div class="fullcol">
-  <h2>The largest online consignment store for women’s and children’s clothes, ThredUP is focused on getting consumers to think second-hand first. "We’re disrupting the retail industry, and it’s really important to us to make sure that as we’re building software and getting it out in front of our users, we can do it on a fast cycle and learn a ton as we experiment," says Cofounder/CTO Chris Homer.
+  <h2>Founded in 2013, Slamtec provides service robot autonomous localization and navigation solutions. In this fast-moving space, the company built its success on the ability of its R&D team to quickly introduce, and continually iterate on, its core products.
  </h2>
-   But over the past few years, ThredUP, which was launched in 2009 with a monolithic application running on Amazon Web Services, was feeling growing pains as its user base passed the 20- million mark. Though the company had begun breaking up the monolith into microservices, the infrastructure team was still dealing with handcrafted servers, which hampered productivity. "We’ve configured them just to get them out as fast as we could, but there was no standardization, and as we kept growing, that became a bigger and bigger chore to manage," says Homer. The infrastructure, Homer realized, needed to be modernized to enable the velocity—and the culture—the company wanted.
+   To sustain that development velocity, the company over the past few years began looking to build its own stable and reliable container cloud platform to host its Internet of Things applications. With a legacy infrastructure based on <a href="https://www.alibabacloud.com/">Alibaba Cloud</a> and <a href="https://www.vmware.com/products/vsphere.html">VMware vSphere</a>, Slamtec teams had already adopted microservice architecture and continuous delivery, for "fine granularity on-demand scaling, fault isolation, ease of development, testing, and deployment, and for facilitating high-speed iteration," says Benniu Ji, Director of Cloud Computing Business Division. So "our needs for the cloud platform included high availability, scalability and security; multi-granularity monitoring alarm capability; friendliness to containers and microservices; and perfect CI/CD support."
 <br><br>
-  "We wanted to make sure that our engineers could embrace the DevOps mindset as they built software," Homer says. "It was really important to us that they could own the life cycle from end to end, from conception at design, through shipping it and running it in production, from marketing to ecommerce, the user experience and our internal distribution center operations."
+  After an evaluation of existing technologies, Ji’s team chose <a href="https://kubernetes.io/">Kubernetes</a> for orchestration. "CNCF brings quality assurance and a complete ecosystem for Kubernetes, which is very important for the wide application of Kubernetes," says Ji. Plus, "avoiding binding to an infrastructure technology or provider can help us ensure that our business is deployed and migrated in cross-regional environments, and can serve users all over the world."
 </div>
 </section>
-<div class="banner3" style="background-image: url('CaseStudy_thredup_banner3.jpg')">
+<div class="banner3" style="background-image: url('CaseStudy_slamtec_banner3.jpg')">
   <div class="banner3text">
-    "Kubernetes enabled auto scaling in a seamless and easily manageable way on days like Black Friday. We no longer have to sit there adding instances, monitoring the traffic, doing a lot of manual work."<br style="height:25px"><span style="font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-top:5% !important;"><br>- CHRIS HOMER, COFOUNDER/CTO, THREDUP</span>
+    "CNCF brings quality assurance and a complete ecosystem for Kubernetes, which is very important for the wide application of Kubernetes."<br style="height:25px"><span style="font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-top:5% !important;"><br>- BENNIU JI, DIRECTOR OF CLOUD COMPUTING BUSINESS DIVISION</span>
 
   </div>
 </div>
 <section class="section3">
 <div class="fullcol">
-  In early 2017, Homer found the solution with Kubernetes container orchestration. In the course of a year, the company migrated its entire infrastructure to Kubernetes, starting with its website applications and concluding with its operations backend. Teams are now also using Fluentd and Helm. "Initially there were skeptics about the value that this move to cloud native technologies would bring, but as we went through the process, people very quickly started to realize the benefit of having seamless upgrades and easy rollbacks without having to worry about what was happening," says Homer. "It unlocks the developers’ confidence in being able to deploy quickly, learn, and if you make a mistake, you can roll it back without any issue."
+  Thus Slamtec decided to adopt other CNCF projects as well. "We built a monitoring and logging system based on <a href="https://prometheus.io/">Prometheus</a> and <a href="https://www.fluentd.org/">Fluentd</a>," says Ji. "The integration between Prometheus/Fluentd and Kubernetes is convenient, with multiple dimensions of data monitoring and log collection capabilities."
 <br><br>
-  According to the infrastructure team, the key improvement was the consistent experience Kubernetes enabled for developers. "It lets developers work in the same environment that their application will be running in production," says Infrastructure Engineer Oleksandr Snagovskyi. Plus, "It became easier to test, easier to refine, and easier to deploy, because everything’s done automatically," says Infrastructure Engineer Oleksii Asiutin. "One of the main goals of our team is to make developers’ lives more comfortable, and we are achieving this with Kubernetes. They can experiment with existing applications and create new services, and do it all blazingly fast."
+  The company uses <a href="https://goharbor.io/">Harbor</a> as a container image repository. "Harbor’s replication function helps us implement CI/CD on both private and public clouds," says Ji. "In addition, multi-project support, certification and policy configuration, and integration with Kubernetes are also excellent functions." <a href="https://helm.sh/">Helm</a> is also being used as a package manager, and the team is evaluating the Istio framework. "We’re very pleased that Kubernetes and these frameworks can be seamlessly integrated," Ji adds.
 </div>
 </section>
-<div class="banner4" style="background-image: url('CaseStudy_thredup_banner4.jpg')">
+<div class="banner4" style="background-image: url('CaseStudy_slamtec_banner4.jpg')">
   <div class="banner4text">
-  "One of the main goals of our team is to make developers’ lives more comfortable, and we are achieving this with Kubernetes. They can experiment with existing applications and create new services, and do it all blazingly fast." <br style="height:25px"><span style="font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-top:5% !important;"><br>- OLEKSII ASIUTIN, INFRASTRUCTURE ENGINEER, THREDUP</span>
+  "Cloud native is suitable for microservice architecture, it’s suitable for fast iteration and agile development, and it has a relatively perfect ecosystem and active community." <br style="height:25px"><span style="font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-top:5% !important;"><br>- BENNIU JI, DIRECTOR OF CLOUD COMPUTING BUSINESS DIVISION</span>
   </div>
 </div>
 
 <section class="section5" style="padding:0px !important">
 <div class="fullcol">
-  Before, "even considering that we already have all the infrastructure in the cloud, databases and services, and all these good things," says Snagovskyi, setting up a new service meant waiting 2-4 weeks just to get the environment. With Kubernetes, because of simple configuration and minimal dependency on the infrastructure team, the roll-out time for new applications has decreased from several days or weeks to minutes or hours.
+  With the new platform, Ji reports that Slamtec has experienced "18+ months of 100% stability!" For users, there is now zero service downtime and seamless upgrades. "We benefit from the abstraction of Kubernetes from network and storage," says Ji. "The dependence on external services can be decoupled from the service and placed under unified management in the cluster."
 <br><br>
-  In fact, deployment time has decreased about 50% on average for key services. "Fast deployment and parallel test execution in Kubernetes keep a ‘lead time’ for all applications under 20 minutes," allowing engineers to do multiple releases a day, says Director of Infrastructure Roman Chepurnyi. The infrastructure team’s jobs, he adds, have become less burdensome, too: "We can execute seamless upgrades frequently and keep cluster performance and security up-to-date because OS-level hardening and upgrades of a Kubernetes cluster is a non-blocking activity for production operations and does not involve coordination with multiple engineering teams."
+  Using Kubernetes and Istio "significantly reduced the microservice configuration and maintenance efforts by 50%," he adds. With centralized metrics monitoring and log aggregation provided by Prometheus on Fluentd, teams are saving 50% of time spent on troubleshooting and debugging. Harbor replication has allowed production/staging/testing environments to cross public cloud and the private Kubernetes cluster to share the same container registry, resulting in 30% savings of CI/CD efforts. Plus, Ji adds, "Helm has accelerated prototype development and environment setup with its rich sharing charts."
 <br><br>
-  More than 3,200 ansible scripts have been deprecated in favor of Helm charts. And impressively, hardware cost has decreased 56% while the number of services ThredUP runs has doubled.
-  </div>
+In short, Ji says, Slamtec’s new platform is helping it achieve one of its primary goals: the quick and easy release of products. With multiple release models and a centralized control interface, the platform is changing developers’ lives for the better. Slamtec also offers a unified API for the development of automated deployment tools according to users’ specific needs.
+</div>
 
 <div class="banner5" style="width:100%">
   <div class="banner5text">
-"Our future’s all about automation, and behind that, cloud native technologies are going to unlock our ability to embrace that and go full force towards the future."<br style="height:25px"><span style="font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-top:5% !important;"><br>- CHRIS HOMER, COFOUNDER/CTO, THREDUP</span></div>
+"We benefit from the abstraction of Kubernetes from network and storage, the dependence on external services can be decoupled from the service and placed under unified management in the cluster."<br style="height:25px"><span style="font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-top:5% !important;"><br>- BENNIU JI, DIRECTOR OF CLOUD COMPUTING BUSINESS DIVISION</span></div>
 </div>
 
 <div class="fullcol">
-  Perhaps the impact is most evident on the busiest days in retail. "Kubernetes enabled auto scaling in a seamless and easily manageable way on days like Black Friday," says Homer. "We no longer have to sit there adding instances, monitoring the traffic, doing a lot of manual work. That’s handled for us, and instead we can actually have some turkey, drink some wine and enjoy our families."
+  Given its own success with cloud native, Slamtec has just one piece of advice for organizations considering making the leap. "For already containerized services, you should migrate them to the cloud native architecture as soon as possible and enjoy the advantages brought by the cloud native ecosystem," Ji says. "To migrate traditional, non-containerized services, in addition to the architecture changes of the service itself, you need to fully consider the operation and maintenance workload required to build the cloud native architecture."
 <br><br>
-  For ThredUP, Kubernetes fits perfectly with the company’s vision for how it’s changing retail. Some of what ThredUP does is still very manual: "As our customers send bags of items to our distribution centers, they’re photographed, inspected, tagged, and put online today," says Homer.
-<br><br>
-  But in every other aspect, "we use different forms of technology to drive everything we do," Homer says. "We have machine learning algorithms to help predict the likelihood of sale for items, which drives our pricing algorithm. We have personalization algorithms that look at the images and try to determine style and match users’ preferences across our systems."
-<br><br>
-  Count Kubernetes as one of those drivers. "Our future’s all about automation," says Homer, "and behind that, cloud native technologies are going to unlock our ability to embrace that and go full force towards the future."
+  That said, the cost-benefit analysis has been simple for Slamtec. "Cloud native technology is suitable for microservice architecture, it’s suitable for fast iteration and agile development, and it has a relatively perfect ecosystem and active community," says Ji. "It helps us ensure high availability of our business, while improving development and testing efficiency, shortening the research and development cycle and enabling rapid product delivery."
 </div>
 </section>
 </body>
